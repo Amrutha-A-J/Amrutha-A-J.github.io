@@ -31,7 +31,7 @@ To get started with the project, clone the repository and install the dependenci
 
 ```bash
 git clone git@github.com:Amrutha-A-J/amruthaaj.com.git
-cd your-repo-name
+cd amruthaaj.com
 npm install
 ```
 
