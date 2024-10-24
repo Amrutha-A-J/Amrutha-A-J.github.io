@@ -42,7 +42,7 @@ To run the application in development mode, use the following command:
 ```bash
 npm run dev
 ```
-This will start a local server, and you can open your browser and navigate to http://localhost:3000 to view the application.
+This will start a local server, and you can open your browser and navigate to http://localhost:5173/amruthaaj.com/ to view the application.
 
 Once the application is running, you can interact with different sections, update resume data in the resumeData.json file located in the src directory, and see the changes reflected in real-time.
 
