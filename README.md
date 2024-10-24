@@ -23,7 +23,6 @@ This project is a modern remake of my original resume website, built using React
 - **React:** A JavaScript library for building user interfaces.
 - **TypeScript:** A superset of JavaScript that adds static types.
 - **Vite:** A fast build tool for modern web applications.
-- **Material Icons:** For UI icons.
 
 ## Installation
 
