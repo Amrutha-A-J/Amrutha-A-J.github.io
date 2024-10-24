@@ -1,4 +1,8 @@
 import React from 'react';
+import useResponsiveFont from '../../hooks/useResponsiveFont';
+import useSmoothScroll from '../../hooks/useSmoothScroll';
+import useHighlightSection from '../../hooks/useHighlightSection';
+import useWindowSize from '../../hooks/useWindowSize';
 import './header.css';
 
 interface SocialNetwork {
@@ -20,6 +24,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ data }) => {
+    const smoothScroll = useSmoothScroll();
     const monthDiff = (dateFrom: Date, dateTo: Date): number => {
         return (
             (dateTo.getMonth() - dateFrom.getMonth() + 12 * (dateTo.getFullYear() - dateFrom.getFullYear())) /
@@ -27,10 +32,14 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
         );
     };
 
-    if (!data) return null; 
+    useResponsiveFont('.responsive-headline', '40px', '90px');
+    useWindowSize('header');
+    useHighlightSection('#nav-wrap', 'section');
+
+    if (!data) return null;
 
     const { name, occupation, description, address } = data;
-    const age = new Date().getFullYear() - 1993; 
+    const age = new Date().getFullYear() - 1993;
     const experience = Math.round(monthDiff(new Date(2018, 3), new Date()));
 
     const formattedDescription = description
@@ -58,12 +67,12 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
 
                 <ul id="nav" className="nav">
                     <li className="current">
-                        <a className="smoothscroll" href="#home">
+                        <a href="#home" className="smoothscroll" onClick={(e) => smoothScroll(e, 'home')}>
                             Home
                         </a>
                     </li>
                     <li>
-                        <a className="smoothscroll" href="#about">
+                        <a href="#about" className="smoothscroll" onClick={(e) => smoothScroll(e, 'about')}>
                             About
                         </a>
                     </li>
@@ -97,7 +106,7 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
             </div>
 
             <p className="scrolldown">
-                <a className="smoothscroll" href="#about">
+                <a href="#about" className="smoothscroll" onClick={(e) => smoothScroll(e, 'about')}>
                     <i className="icon-down-circle"></i>
                 </a>
             </p>
