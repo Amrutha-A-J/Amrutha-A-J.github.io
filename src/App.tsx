@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 // import Footer from './components/footer/Footer';
 import About from './components/about/About';
-// import Resume from '../components/resume/Resume';
+import Resume from './components/resume/Resume';
 // import Contact from './components/contact/Contact';
 // import Testimonials from './components/testimonials/Testimonials';
 // import Portfolio from './components/portfolio/Portfolio';
@@ -37,8 +37,8 @@ const App = () => {
 				<>
 					<Header data={resumeData.main} />
 					<About data={resumeData.main} />
-					{/* 
                     <Resume data={resumeData.resume} />
+										{/* 
                     <Portfolio data={resumeData.portfolio} />
                     <Contact data={resumeData.main} />
                     <Footer data={resumeData.main} /> */}
