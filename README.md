@@ -1,5 +1,5 @@
 To run in localhost:
-npm start
+npm run dev
 
 To update gh-pages branch and deploy all together:
 npm run build
