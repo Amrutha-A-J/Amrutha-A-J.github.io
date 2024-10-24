@@ -5,7 +5,7 @@ header {
     width: 100%;
     background-size: cover !important;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-        url("../../assets/img/img-profile.jpg") no-repeat center;
+        url("/public/assets/img/img-profile.jpg") no-repeat center;
     -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;

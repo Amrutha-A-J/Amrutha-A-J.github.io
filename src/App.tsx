@@ -15,7 +15,7 @@ const App = () => {
 
 	const getResumeData = async () => {
 		try {
-			const response = await fetch('./src/assets/files/json/resumeData.json');
+			const response = await fetch('./assets/files/json/resumeData.json');
 			
 			if (!response.ok) {
 				throw new Error('Network response was not ok');
@@ -24,7 +24,6 @@ const App = () => {
 			setResumeData(data);
 		} catch (error) {
 			console.error('Error fetching resume data:', error);
-			alert('Failed to fetch resume data.');
 		}
 	};
 
