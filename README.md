@@ -16,7 +16,6 @@ This project is a modern remake of my original resume website, built using React
 - **TypeScript Integration:** Utilizes TypeScript for type safety and better developer experience, making the codebase more robust and easier to understand.
 - **React Hooks:** Implements hooks for state management and lifecycle methods, ensuring cleaner and more functional components.
 - **Smooth Scrolling:** Features smooth scrolling for navigation, improving usability across sections of the website.
-- **CORS Support:** Includes measures to handle CORS issues during deployment for seamless data fetching.
 - **Deployable on GitHub Pages:** Ready for deployment, allowing for easy hosting and access.
 
 ## Technologies Used
