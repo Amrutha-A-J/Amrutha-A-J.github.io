@@ -3,6 +3,7 @@ import useResponsiveFont from '../../hooks/useResponsiveFont';
 import useSmoothScroll from '../../hooks/useSmoothScroll';
 import useHighlightSection from '../../hooks/useHighlightSection';
 import useWindowSize from '../../hooks/useWindowSize';
+import useScrollNav from '../../hooks/useScrollNav';
 import './header.css';
 
 interface SocialNetwork {
@@ -25,6 +26,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ data }) => {
     const smoothScroll = useSmoothScroll();
+    const { navVisible, opaque } = useScrollNav();
     const monthDiff = (dateFrom: Date, dateTo: Date): number => {
         return (
             (dateTo.getMonth() - dateFrom.getMonth() + 12 * (dateTo.getFullYear() - dateFrom.getFullYear())) /
@@ -57,7 +59,7 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
 
     return (
         <header id="home">
-            <nav id="nav-wrap">
+            <nav id="nav-wrap" className={opaque ? 'opaque' : ''} style={{ display: navVisible ? 'block' : 'none' }}>
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
                     Show navigation
                 </a>
@@ -77,17 +79,17 @@ const Header: React.FC<HeaderProps> = ({ data }) => {
                         </a>
                     </li>
                     <li>
-                        <a className="smoothscroll" href="#resume">
+                        <a className="smoothscroll" href="#resume" onClick={(e) => smoothScroll(e, 'resume')}>
                             Resume
                         </a>
                     </li>
                     <li>
-                        <a className="smoothscroll" href="#portfolio">
+                        <a className="smoothscroll" href="#portfolio" onClick={(e) => smoothScroll(e, 'portfolio')}>
                             Works
                         </a>
                     </li>
                     <li>
-                        <a className="smoothscroll" href="#contact">
+                        <a className="smoothscroll" href="#contact" onClick={(e) => smoothScroll(e, 'contact')}>
                             Contact
                         </a>
                     </li>

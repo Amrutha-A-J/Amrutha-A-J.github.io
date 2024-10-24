@@ -12,7 +12,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background: #0f0f0f;
 	font-family: 'opensans-regular', sans-serif;
 	font-weight: normal;
 	font-size: 15px;
@@ -216,8 +216,8 @@ abbr:hover {
 	padding: 14px 6px 0 0;
 	font-size: 84px;
 	font-family:
-	/* Copperplate */
-	'opensans-bold', sans-serif;
+		/* Copperplate */
+		'opensans-bold', sans-serif;
 	line-height: 60px;
 	text-indent: 0;
 	background: transparent;
