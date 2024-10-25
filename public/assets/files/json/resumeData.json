@@ -159,21 +159,21 @@
             {
                 "title": "amruthaaj.com",
                 "category": "This porfolio website",
-                "image": "amruthaaj.com.png",
+                "image": "amruthaaj.com.jpg",
                 "technologies": "ReactJS, TypeScript",
                 "url": "https://amruthaaj.com/"
             },
             {
                 "title": "Laxmanfitness.in",
                 "category": "Website for my dad's business",
-                "image": "laxmanfitness.png",
+                "image": "laxmanfitness.jpg",
                 "technologies": "Google AMP, HTML, CSS",
                 "url": "https://laxmanfitness.in/"
             },
             {
                 "title": "amruthaaj.com/TheVerge.com/",
                 "category": "Recreated the verge.com landing page",
-                "image": "verge.png",
+                "image": "verge.jpg",
                 "technologies": "HTML, CSS, JavaScript",
                 "url": "https://amruthaaj.com/TheVerge.com/"
             }
