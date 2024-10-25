@@ -20,7 +20,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
     const projects = data.projects.map((project) => {
         const projectImage = `assets/img/portfolio/${project.image}`;
         return (
-            <div key={project.title} className="columns portfolio-item">
+            <div key={project.title} className="portfolio-item">
                 <div className="item-wrap">
                     <a href={project.url} title={project.title} target="_blank" rel="noopener noreferrer">
                         <img alt={project.title} src={projectImage} />
@@ -41,12 +41,10 @@ const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
 
     return (
         <section id="portfolio">
-            <div className="row">
-                <div className="twelve columns collapsed">
-                    <h1>Check Out Some of My Works.</h1>
-                    <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                        {projects}
-                    </div>
+            <div className="portfolio-container">
+                <h1>Check Out Some of My Works.</h1>
+                <div id="portfolio-wrapper">
+                    {projects}
                 </div>
             </div>
         </section>
