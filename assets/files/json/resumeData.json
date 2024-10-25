@@ -2,7 +2,7 @@
     "main": {
         "name": "Amrutha Adiyath",
         "occupation": "Full Stack Developer",
-        "description": "I'm a passionate coder who loves what I do! With {{EXPERIENCE}} years of experience under my belt, I take pride in writing quality code. I’ve got skills in front-end, back-end, and database development.",
+        "description": "I'm a passionate coder who loves what I do! With {{EXPERIENCE}} years of experience under my belt, I take pride in writing quality code. I have skills in front-end, back-end, and database development.",
         "image": "profilepic.jpg",
         "bio": "Hey there! I’m Amrutha Adiyath, and I’m currently enjoying life in Moose Jaw, Saskatchewan. I've spent {{EXPERIENCE}} years diving into programming, working with front-end and back-end technologies like ReactJS, Java, Python, and PostgreSQL.",
         "bio_p": "When I'm not coding, I'm unleashing my creativity as a hobby artist. Front-end dev is my playground! I'm also a big animal lover, rescuing and fostering cats (even the grumpy ones!). In my downtime, you’ll catch me gaming, experimenting with new recipes, binge-watching movies, or jamming to some classic rock.",
