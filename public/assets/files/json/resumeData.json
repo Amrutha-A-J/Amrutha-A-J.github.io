@@ -157,52 +157,25 @@
     "portfolio": {
         "projects": [
             {
+                "title": "amruthaaj.com",
+                "category": "This porfolio website",
+                "image": "amruthaaj.com.png",
+                "technologies": "ReactJS, TypeScript",
+                "url": "https://amruthaaj.com/"
+            },
+            {
                 "title": "Laxmanfitness.in",
                 "category": "Website for my dad's business",
                 "image": "laxmanfitness.png",
+                "technologies": "Google AMP, HTML, CSS",
                 "url": "https://laxmanfitness.in/"
             },
             {
                 "title": "amruthaaj.com/TheVerge.com/",
                 "category": "Recreated the verge.com landing page",
                 "image": "verge.png",
+                "technologies": "HTML, CSS, JavaScript",
                 "url": "https://amruthaaj.com/TheVerge.com/"
-            },
-            {
-                "title": "theOathWriter.com",
-                "category": "Portfolio website for a friend (offline now)",
-                "image": "oathwriter.png",
-                "url": "https://amruthaaj.com/TheOathWriter/"
-            },
-            {
-                "title": "Mama",
-                "category": "One of my creative works",
-                "image": "mama.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/Mama-702693824"
-            },
-            {
-                "title": "Hope",
-                "category": "One of my creative works",
-                "image": "portfolio-1.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/Hope-728825952"
-            },
-            {
-                "title": "Blurred Lines",
-                "category": "One of my creative works",
-                "image": "portfolio-3.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/Blurred-Lines-703542722"
-            },
-            {
-                "title": "A journey through time",
-                "category": "One of my creative works",
-                "image": "portfolio-4.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/A-Journey-through-time-702818485"
-            },
-            {
-                "title": "Mother",
-                "category": "One of my creative works",
-                "image": "portfolio-5.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/Mother-728827978"
             }
         ]
     }

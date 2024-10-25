@@ -72,6 +72,7 @@ export interface PortfolioProject {
     title: string;
     category: string;
     image: string;
+    technologies: string,
     url: string;
 }
 

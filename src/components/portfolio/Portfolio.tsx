@@ -20,6 +20,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
                             <div className="portfolio-item-meta">
                                 <h5>{project.title}</h5>
                                 <p>{project.category}</p>
+                                <p>Technologies used: {project.technologies}</p>
                             </div>
                         </div>
                         <div className="link-icon">
