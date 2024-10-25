@@ -1,16 +1,9 @@
 import React from 'react';
 import './Footer.css';
-
-interface SocialNetwork {
-    name: string;
-    url: string;
-    className: string;
-}
+import { Main } from '../../types/types';
 
 interface FooterProps {
-    data: {
-        social: SocialNetwork[];
-    };
+    data: Main;
 }
 
 const Footer: React.FC<FooterProps> = ({ data }) => {

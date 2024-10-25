@@ -46,11 +46,26 @@ export interface Skill {
     level: string;
 }
 
-export interface Resume {
+export interface Volunteer {
+    organization: string;
+    role: string;
+    year: string;
+    description: string;
+}
+
+export interface Certification {
+    name: string;
+    year: string;
+    description: string;
+}
+
+export interface ResumeData {
     skillmessage: string;
     education: Education[];
     work: Work[];
     skills: Skill[];
+    volunteer: Volunteer[];
+    certifications: Certification[];
 }
 
 export interface PortfolioProject {
@@ -60,32 +75,12 @@ export interface PortfolioProject {
     url: string;
 }
 
-export interface Portfolio {
+export interface PortfolioData {
     projects: PortfolioProject[];
-}
-
-export interface Volunteer {
-    name: string;
-    year: string;
-    description: string;
-}
-
-export interface VolunteerData {
-    Volunteer: Volunteer[];
-}
-
-export interface Certifications {
-    Certifications: {
-        name: string;
-        year: string;
-        description: string;
-    }[];
 }
 
 export interface ResumeData {
     main: Main;
-    resume: Resume;
-    portfolio: Portfolio;
-    Volunteer: VolunteerData;
-    Certifications: Certifications;
+    resume: ResumeData;
+    portfolio: PortfolioData;
 }

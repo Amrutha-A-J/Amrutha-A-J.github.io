@@ -1,13 +1,9 @@
 import React from 'react';
 import './Contact.css';
+import { Main } from '../../types/types';
 
 interface ContactProps {
-    data: {
-        name: string;
-        phone: string;
-        email: string;
-        contactmessage: string;
-    };
+    data: Main;
 }
 
 const Contact: React.FC<ContactProps> = ({ data }) => {

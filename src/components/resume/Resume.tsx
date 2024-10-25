@@ -1,53 +1,15 @@
 import React from 'react';
 import './Resume.css';
-
-interface Education {
-    school: string;
-    degree: string;
-    graduated: string;
-    description: string;
-}
-
-interface Work {
-    company: string;
-    title: string;
-    years: string;
-    description: string;
-}
-
-interface Skills {
-    name: string;
-    level: string;
-}
-
-interface Volunteer {
-    organization: string;
-    role: string;
-    year: string;
-    description: string;
-}
-
-interface Certification {
-    name: string;
-    year: string;
-    description: string;
-}
+import { ResumeData } from '../../types/types';
 
 interface ResumeProps {
-    data: {
-        skillmessage: string;
-        education: Education[];
-        work: Work[];
-        skills: Skills[];
-        volunteer: Volunteer[];
-        certifications: Certification[];
-    };
+    data: ResumeData;
 }
 
 const Resume: React.FC<ResumeProps> = ({ data }) => {
     if (!data) return null;
 
-    const { skillmessage, education, work, skills, volunteer, certifications } = data;
+    const { education, work, skills, volunteer, certifications, skillmessage } = data;
 
     // Calculate total years of experience since 2017
     const currentYear = new Date().getFullYear();
@@ -76,7 +38,6 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
             <p className="info">{job.description}</p>
         </div>
     ));
-
 
     // Generate volunteer items
     const volunteerItems = volunteer.map((vol) => (

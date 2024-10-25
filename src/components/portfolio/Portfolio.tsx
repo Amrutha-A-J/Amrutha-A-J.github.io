@@ -1,17 +1,9 @@
 import React from 'react';
 import './Portfolio.css';
-
-interface Project {
-    title: string;
-    url: string;
-    image: string;
-    category: string;
-}
+import { PortfolioData } from '../../types/types';
 
 interface PortfolioProps {
-    data: {
-        projects: Project[];
-    };
+    data: PortfolioData;
 }
 
 const Portfolio: React.FC<PortfolioProps> = ({ data }) => {

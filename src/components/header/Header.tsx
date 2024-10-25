@@ -5,23 +5,10 @@ import useHighlightSection from '../../hooks/useHighlightSection';
 import useWindowSize from '../../hooks/useWindowSize';
 import useScrollNav from '../../hooks/useScrollNav';
 import './header.css';
-
-interface SocialNetwork {
-    name: string;
-    url: string;
-    className: string;
-}
+import { Main } from '../../types/types';
 
 interface HeaderProps {
-    data: {
-        name: string;
-        occupation: string;
-        description: string;
-        address: {
-            state: string;
-        };
-        social: SocialNetwork[];
-    };
+    data: Main;
 }
 
 const Header: React.FC<HeaderProps> = ({ data }) => {

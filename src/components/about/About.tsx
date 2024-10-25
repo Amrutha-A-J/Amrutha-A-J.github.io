@@ -1,24 +1,10 @@
 import React from 'react';
 import './About.css';
+import { Main } from '../../types/types';
 
-interface Address {
-    street: string;
-    city: string;
-    state: string;
-    zip: string;
-}
 
 interface AboutProps {
-    data: {
-        name: string;
-        image: string;
-        bio: string;
-        bio_p: string;
-        address: Address;
-        phone: string;
-        email: string;
-        resumedownload: string;
-    };
+    data: Main;
 }
 
 const About: React.FC<AboutProps> = ({ data }) => {
@@ -76,7 +62,7 @@ const About: React.FC<AboutProps> = ({ data }) => {
                         <div className="columns download">
                             <p>
                                 <a href={resumedownload} className="button" download>
-                                    <i className="fa fa-download"></i> 
+                                    <i className="fa fa-download"></i>
                                     Download Resume
                                 </a>
                             </p>
