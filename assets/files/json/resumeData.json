@@ -133,6 +133,12 @@
                 "url": "https://laxmanfitness.in/"
             },
             {
+                "title": "amruthaaj.com/TheVerge.com/",
+                "category": "Recreated the landing page of the verge.com",
+                "image": "verge.png",
+                "url": "https://amruthaaj.com/TheVerge.com/"
+            },
+            {
                 "title": "theOathWriter.com",
                 "category": "(offline now) Portfolio website for a friend",
                 "image": "oathwriter.png",
@@ -167,12 +173,6 @@
                 "category": "One of my creative works",
                 "image": "portfolio-5.jpg",
                 "url": "https://www.deviantart.com/blaringpsylence/art/Mother-791880319"
-            },
-            {
-                "title": "Feeling Normal",
-                "category": "One of my creative works",
-                "image": "portfolio-6.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/Normal-is-relative-honest-727664348"
             }
         ]
     },
