@@ -20,46 +20,97 @@ interface Skills {
     level: string;
 }
 
+interface Volunteer {
+    organization: string;
+    role: string;
+    year: string;
+    description: string;
+}
+
+interface Certification {
+    name: string;
+    year: string;
+    description: string;
+}
+
 interface ResumeProps {
     data: {
         skillmessage: string;
         education: Education[];
         work: Work[];
         skills: Skills[];
+        volunteer: Volunteer[];
+        certifications: Certification[];
     };
 }
 
 const Resume: React.FC<ResumeProps> = ({ data }) => {
     if (!data) return null;
 
-    const { skillmessage, education, work, skills } = data;
+    const { skillmessage, education, work, skills, volunteer, certifications } = data;
 
+    // Calculate total years of experience since 2017
+    const currentYear = new Date().getFullYear();
+    const totalYearsExperience = currentYear - 2017;
+
+    // Generate education items
     const educationItems = education.map((edu) => (
         <div key={edu.school}>
             <h3>{edu.school}</h3>
             <p className="info">
-                {edu.degree} <span>&bull;</span> <em className="date">{edu.graduated}</em>
+                {edu.degree}<br />
+                {edu.graduated}
             </p>
-            <p>{edu.description}</p>
+            <p className="info">{edu.description}</p>
         </div>
     ));
 
+    // Generate work items
     const workItems = work.map((job) => (
         <div key={job.company}>
             <h3>{job.company}</h3>
             <p className="info">
-                {job.title} <span>&bull;</span> <em className="date">{job.years}</em>
+                {job.title}<br />
+                {job.years}
             </p>
-            <p>{job.description}</p>
+            <p className="info">{job.description}</p>
         </div>
     ));
 
+
+    // Generate volunteer items
+    const volunteerItems = volunteer.map((vol) => (
+        <div key={vol.organization}>
+            <h3>{vol.organization}</h3>
+            <p className="info">
+                {vol.role}<br />
+                {vol.year}
+            </p>
+            <p className="info">{vol.description}</p>
+        </div>
+    ));
+
+    // Generate certification items
+    const certificationItems = certifications.map((cert) => (
+        <div key={cert.name}>
+            <h3>{cert.name}</h3>
+            <p className="info">
+                <em className="date">{cert.year}</em>
+            </p>
+            <p>{cert.description}</p>
+        </div>
+    ));
+
+    // Calculate percentage for each skill based on years of experience
     const skillItems = skills.map((skill) => {
+        const skillYears = parseInt(skill.level, 10);
+        const skillPercentage = totalYearsExperience > 0 ? ((skillYears / totalYearsExperience) * 100).toFixed(2) : '0.00';
+
         const className = `bar-expand ${skill.name.toLowerCase()}`;
         return (
             <li key={skill.name}>
-                <span style={{ width: skill.level }} className={className}></span>
-                <em>{skill.name}</em>
+                <span style={{ width: `${skillPercentage}%` }} className={className}></span>
+                <em>{skill.name} <span style={{ fontSize: '8px' }}>({skillYears} years)</span></em>
             </li>
         );
     });
@@ -97,6 +148,24 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
                             {skillItems}
                         </ul>
                     </div>
+                </div>
+            </div>
+
+            <div className="row volunteer">
+                <div className="three columns header-col">
+                    <h1><span>Volunteering</span></h1>
+                </div>
+                <div className="nine columns main-col">
+                    {volunteerItems}
+                </div>
+            </div>
+
+            <div className="row certifications">
+                <div className="three columns header-col">
+                    <h1><span>Certifications</span></h1>
+                </div>
+                <div className="nine columns main-col">
+                    {certificationItems}
                 </div>
             </div>
         </section>

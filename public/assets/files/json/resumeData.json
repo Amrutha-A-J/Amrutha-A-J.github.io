@@ -2,11 +2,11 @@
     "main": {
         "name": "Amrutha Adiyath",
         "occupation": "Full Stack Developer",
-        "description": "I consider myself to be passionate and empathetic programmer and a people person. With {{EXPERIENCE}} years of extensive technical expertise, I take immense pride in the quality of my code. My experience spans across front-end and back-end development, as well as database design and development.",
+        "description": "I'm a passionate coder who loves what I do! With {{EXPERIENCE}} years of experience under my belt, I take pride in writing quality code. I’ve got skills in front-end, back-end, and database development.",
         "image": "profilepic.jpg",
-        "bio": "Greetings! I am Amrutha Adiyath, currently residing in the vibrant city of Moose Jaw, Saskatchewan. I have amassed {{EXPERIENCE}} years of comprehensive experience in programming, mastering both front-end and backend technologies such as ReactJS, Java, Python, and PostgreSQL.",
-        "bio_p": "As an artist by hobby, I have a particular fondness for front-end development, where I can blend my technical skills with my creative flair. My love for animals has led me to rescue and foster cats, and I take pride in my ability to handle even the most challenging felines. In my downtime, you will find me playing a game, experimenting in the kitchen, engrossed in a thrilling movie, or unwinding to the tunes of rock music!",
-        "contactmessage": "If you have something interesting to discuss, I'd love to hear from you. Please contact me!",
+        "bio": "Hey there! I’m Amrutha Adiyath, and I’m currently enjoying life in Moose Jaw, Saskatchewan. I've spent {{EXPERIENCE}} years diving into programming, working with front-end and back-end technologies like ReactJS, Java, Python, and PostgreSQL.",
+        "bio_p": "When I'm not coding, I'm unleashing my creativity as a hobby artist. Front-end dev is my playground! I'm also a big animal lover, rescuing and fostering cats (even the grumpy ones!). In my downtime, you’ll catch me gaming, experimenting with new recipes, binge-watching movies, or jamming to some classic rock.",
+        "contactmessage": "Wanna chat? I'm all ears!",
         "email": "amrutha.laxman93@gmail.com",
         "phone": "+1 639-538-1185",
         "address": {
@@ -37,90 +37,120 @@
                 "name": "github",
                 "url": "https://github.com/Amrutha-A-J",
                 "className": "fa fa-github"
-            },
-            {
-                "name": "deviantart",
-                "url": "https://www.deviantart.com/blaringpsylence",
-                "className": "fa fa-deviantart"
             }
         ]
     },
     "resume": {
-        "skillmessage": "The following are my current skills and expertise",
+        "skillmessage": "Here are some of my skills and what I’m really good at:",
         "education": [
             {
                 "school": "Saskatchewan Polytechnic",
                 "degree": "Post Graduate Diploma in Technology Management",
                 "graduated": "2024",
-                "description": "During this program, I developed expertise in Java and Python for project development and software architecture, utilizing SQL Server for backend databases. In the first semester, I acquired a comprehensive understanding of network management principles and protocols. Additionally, I enhanced my business communication skills, including conflict resolution and negotiation abilities. Moving into the second semester, I learned data visualization techniques using PowerBI and Python. I also gained practical experience in Agile-based project management, along with knowledge of business strategies like ITIL, IT ethics, and data privacy laws."
+                "description": "This program really sharpened my skills in Java, Python, and SQL Server for project development. I learned about network management, PowerBI, and Agile project management, along with business strategies like ITIL and data privacy."
             },
             {
                 "school": "Government Engineering College, Palakkad (Calicut University)",
                 "degree": "Bachelor's in Technology (Computer Science and Engineering)",
                 "graduated": "2017",
-                "description": "During my academic journey, I delved deep into the intricacies of data structures and algorithms. My self-motivated learning approach led me to explore modern technologies such as HTML and JavaScript. This newfound knowledge sparked my interest in web development, prompting me to create a variety of websites. These projects, ranging from course-related to personal endeavors and my own personal website, served as practical applications of my theoretical understanding."
+                "description": "This is where I dove into data structures, algorithms, and built websites. My love for web development kicked off here, mixing theory with practice by creating personal projects and course-related work."
             }
         ],
         "work": [
             {
+                "company": "Evolution Media Inc.",
+                "title": "Web Developer",
+                "years": "September 2023 - October 2024",
+                "description": "I teamed up with the owner and main developer, helping out with the development and maintenance of his PHP-based applications."
+            },
+            {
                 "company": "PetValu Moose Jaw",
                 "title": "Store Associate",
-                "years": "August 2023 - Present",
-                "description": "As a customer service specialist, I assist customers in finding the right products for their needs, answering their questions, and providing them with relevant information. I strive to build lasting relationships with customers and enhance their experience. I also handle phone and online orders, ensuring they are processed and fulfilled efficiently. Additionally, I manage inbound calls and resolve customer issues in the first interaction."
+                "years": "August 2023 - August 2024",
+                "description": "I assist customers in finding what they need and ensure their orders are processed smoothly. Building great relationships with customers is my jam, making sure they leave happy."
             },
             {
                 "company": "QBurst Technologies",
                 "title": "Full-Stack Developer",
                 "years": "March 2018 - July 2023",
-                "description": "I started my career as a front-end developer, focusing on ReactJS. Over time, I transitioned to backend development, using Java, Python, and NodeJS alongside PostgreSQL. Throughout my extensive tenure at QBurst, I've crafted numerous applications. These range from a front-end solution for a prominent retail corporation to backend order management systems, batch applications within microservices architectures, API applications, and database design and optimization projects."
+                "description": "I kicked off my journey in front-end development with ReactJS and then switched gears to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend order systems, and database designs."
             },
             {
                 "company": "Cybrilla Technologies",
-                "title": "Software Developer",
+                "title": "Developer Intern",
                 "years": "July 2016 - September 2016",
-                "description": "Learned about various front-end development technologies, Learned to convert wire-frames to web pages."
+                "description": "I got to learn the ropes in front-end tech, working on converting wireframes into actual web pages."
             }
         ],
         "skills": [
             {
-                "name": "Java",
-                "level": "85%"
+                "name": "JavaScript",
+                "level": "7"
             },
             {
-                "name": "Python",
-                "level": "70%"
+                "name": "VueJS",
+                "level": "3"
             },
             {
                 "name": "ReactJS",
-                "level": "80%"
+                "level": "5"
+            },
+            {
+                "name": "NestJS/ Node",
+                "level": "3"
+            },
+            {
+                "name": "Python",
+                "level": "2"
+            },
+            {
+                "name": "PHP",
+                "level": "1"
             },
             {
                 "name": "PostgreSQL",
-                "level": "80%"
+                "level": "5"
             },
             {
                 "name": "AWS",
-                "level": "70%"
+                "level": "5"
             },
             {
-                "name": "JIRA",
-                "level": "90%"
-            },
-            {
-                "name": "Spring Boot/Batch",
-                "level": "80%"
+                "name": "Java Spring",
+                "level": "3"
             },
             {
                 "name": "TypeScript",
-                "level": "50%"
+                "level": "3"
             },
             {
                 "name": "Git",
-                "level": "90%"
+                "level": "7"
             },
             {
                 "name": "MongoDB",
-                "level": "40%"
+                "level": "3"
+            }
+        ],
+        "volunteer": [
+            {
+                "organization": "SCRAPS Moose Jaw",
+                "role": "Volunteer - Cat Rescue & Fostering",
+                "year": "August 2023 - Present",
+                "description": "I’m helping out with SCRAPS, rescuing and fostering cats that need a bit of extra love. It’s all about giving them a cozy home, socializing them, and finding their forever families. Plus, I get to cuddle cats all day—what’s not to love?"
+            },
+            {
+                "organization": "PAWS Thrissur",
+                "role": "Volunteer - Cat Rescue & Fostering",
+                "year": "2020 - 2023",
+                "description": "I volunteered with PAWS Thrissur to rescue and foster stray cats, giving them care, attention, and a safe space until they found their new homes. I also helped spread the word about animal welfare around town. It was as rewarding as it was full of furry fun!"
+            }
+        ],
+        "certifications": [
+            {
+                "name": "IELTS",
+                "year": "2024",
+                "description": "Certified my English skills with an overall band score of 8, and 8.5 in speaking."
             }
         ]
     },
@@ -128,19 +158,19 @@
         "projects": [
             {
                 "title": "Laxmanfitness.in",
-                "category": "Website for my father's business",
+                "category": "Website for my dad's business",
                 "image": "laxmanfitness.png",
                 "url": "https://laxmanfitness.in/"
             },
             {
                 "title": "amruthaaj.com/TheVerge.com/",
-                "category": "Recreated the landing page of the verge.com",
+                "category": "Recreated the verge.com landing page",
                 "image": "verge.png",
                 "url": "https://amruthaaj.com/TheVerge.com/"
             },
             {
                 "title": "theOathWriter.com",
-                "category": "(offline now) Portfolio website for a friend",
+                "category": "Portfolio website for a friend (offline now)",
                 "image": "oathwriter.png",
                 "url": "https://amruthaaj.com/TheOathWriter/"
             },
@@ -172,28 +202,8 @@
                 "title": "Mother",
                 "category": "One of my creative works",
                 "image": "portfolio-5.jpg",
-                "url": "https://www.deviantart.com/blaringpsylence/art/Mother-791880319"
+                "url": "https://www.deviantart.com/blaringpsylence/art/Mother-728827978"
             }
         ]
-    },
-    "volunteer": [
-        {
-            "organization": "KSDP",
-            "role": "Volunteer Software Developer",
-            "year": "2019",
-            "description": "Contributed to a community project aimed at enhancing local businesses' online presence through custom software solutions."
-        }
-    ],
-    "certifications": [
-        {
-            "name": "AWS Certified Developer - Associate",
-            "year": "2022",
-            "description": "Certification demonstrating proficiency in developing and maintaining applications on AWS."
-        },
-        {
-            "name": "Certified ScrumMaster (CSM)",
-            "year": "2021",
-            "description": "Certification showcasing knowledge and skills in agile project management."
-        }
-    ]
+    }
 }
