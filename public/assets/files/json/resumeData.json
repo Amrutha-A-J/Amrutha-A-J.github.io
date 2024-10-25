@@ -16,7 +16,7 @@
             "zip": "S6H3X1"
         },
         "website": "https://amruthaaj.com",
-        "resumedownload": "../files/Amrutha_Adiyath_Resume.pdf",
+        "resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
         "social": [
             {
                 "name": "facebook",
