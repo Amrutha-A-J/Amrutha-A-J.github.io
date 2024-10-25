@@ -1,6 +1,6 @@
 # React/TypeScript Resume & Portfolio Website
 
-This project is a modern remake of my original resume website, built using React and TypeScript. While the visual design remains consistent with the previous version, this iteration leverages the latest React practices and TypeScript's powerful features to enhance code quality, maintainability, and performance.
+This project is a modern remake of my [original resume website](https://github.com/Amrutha-A-J/amrutha_resume_old), built using React and TypeScript. While the visual design remains consistent with the previous version, this iteration leverages the latest React practices and TypeScript's powerful features to enhance code quality, maintainability, and performance.
 
 ## Table of Contents
 
