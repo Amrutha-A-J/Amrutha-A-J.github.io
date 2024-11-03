@@ -1,182 +1,182 @@
 {
-    "main": {
-        "name": "Amrutha Adiyath",
-        "occupation": "Full Stack Developer",
-        "description": "I'm a passionate coder who loves what I do! With {{EXPERIENCE}} years of experience under my belt, I take pride in writing quality code. I have skills in front-end, back-end, and database development.",
-        "image": "profilepic.jpg",
-        "bio": "Hey there! I’m Amrutha Adiyath, and I’m currently enjoying life in Moose Jaw, Saskatchewan. I've spent {{EXPERIENCE}} years diving into programming, working with front-end and back-end technologies like ReactJS, Java, Python, and PostgreSQL.",
-        "bio_p": "When I'm not coding, I'm unleashing my creativity as a hobby artist. Front-end dev is my playground! I'm also a big animal lover, rescuing and fostering cats (even the grumpy ones!). In my downtime, you’ll catch me gaming, experimenting with new recipes, binge-watching movies, or jamming to some classic rock.",
-        "contactmessage": "Wanna chat? I'm all ears!",
-        "email": "amrutha.laxman93@gmail.com",
-        "phone": "+1 639-538-1185",
-        "address": {
-            "street": "4th Ave NW",
-            "city": "Moose Jaw",
-            "state": "Saskatchewan",
-            "zip": "S6H3X1"
-        },
-        "website": "https://amruthaaj.com",
-        "resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
-        "social": [
-            {
-                "name": "facebook",
-                "url": "http://facebook.com/a.j.amrutha",
-                "className": "fa fa-facebook"
-            },
-            {
-                "name": "linkedin",
-                "url": "https://in.linkedin.com/in/amruthaaj",
-                "className": "fa fa-linkedin"
-            },
-            {
-                "name": "instagram",
-                "url": "https://www.instagram.com/amruthaaj_/",
-                "className": "fa fa-instagram"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/Amrutha-A-J",
-                "className": "fa fa-github"
-            }
-        ]
-    },
-    "resume": {
-        "skillmessage": "Here are some of my skills and what I’m really good at:",
-        "education": [
-            {
-                "school": "Saskatchewan Polytechnic",
-                "degree": "Post Graduate Diploma in Technology Management",
-                "graduated": "2024",
-                "description": "This program really sharpened my skills in Java, Python, and SQL Server for project development. I learned about network management, PowerBI, and Agile project management, along with business strategies like ITIL and data privacy."
-            },
-            {
-                "school": "Government Engineering College, Palakkad (Calicut University)",
-                "degree": "Bachelor's in Technology (Computer Science and Engineering)",
-                "graduated": "2017",
-                "description": "This is where I dove into data structures, algorithms, and built websites. My love for web development kicked off here, mixing theory with practice by creating personal projects and course-related work."
-            }
-        ],
-        "work": [
-            {
-                "company": "Evolution Media Inc.",
-                "title": "Web Developer",
-                "years": "September 2024 - October 2024",
-                "description": "I teamed up with the owner and main developer, helping out with the development and maintenance of his PHP-based applications."
-            },
-            {
-                "company": "PetValu Moose Jaw",
-                "title": "Store Associate",
-                "years": "August 2023 - August 2024",
-                "description": "I assisted customers in finding what they need and ensure their orders are processed smoothly. Building great relationships with customers is something I excel in, making sure they leave happy."
-            },
-            {
-                "company": "QBurst Technologies",
-                "title": "Full-Stack Developer",
-                "years": "March 2018 - July 2023",
-                "description": "I kicked off my journey in front-end development with ReactJS and then switched gears to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend order systems, and database designs."
-            },
-            {
-                "company": "Cybrilla Technologies",
-                "title": "Developer Intern",
-                "years": "July 2016 - September 2016",
-                "description": "I got to learn the ropes in front-end tech, working on converting wireframes into actual web pages."
-            }
-        ],
-        "skills": [
-            {
-                "name": "JavaScript",
-                "level": "7"
-            },
-            {
-                "name": "VueJS",
-                "level": "3"
-            },
-            {
-                "name": "ReactJS",
-                "level": "5"
-            },
-            {
-                "name": "NestJS/ Node",
-                "level": "3"
-            },
-            {
-                "name": "Python",
-                "level": "2"
-            },
-            {
-                "name": "PHP",
-                "level": "1"
-            },
-            {
-                "name": "PostgreSQL",
-                "level": "5"
-            },
-            {
-                "name": "AWS",
-                "level": "5"
-            },
-            {
-                "name": "Java Spring",
-                "level": "3"
-            },
-            {
-                "name": "TypeScript",
-                "level": "3"
-            },
-            {
-                "name": "Git",
-                "level": "7"
-            },
-            {
-                "name": "MongoDB",
-                "level": "3"
-            }
-        ],
-        "volunteer": [
-            {
-                "organization": "SCRAPS Moose Jaw",
-                "role": "Volunteer - Cat Rescue & Fostering",
-                "year": "August 2023 - Present",
-                "description": "I’m helping out with SCRAPS, rescuing and fostering cats that need a bit of extra love. It’s all about giving them a cozy home, socializing them, and finding their forever families. Plus, I get to cuddle cats all day—what’s not to love?"
-            },
-            {
-                "organization": "PAWS Thrissur",
-                "role": "Volunteer - Cat Rescue & Fostering",
-                "year": "2020 - 2023",
-                "description": "I volunteered with PAWS Thrissur to rescue and foster stray cats, giving them care, attention, and a safe space until they found their new homes. I also helped spread the word about animal welfare around town. It was as rewarding as it was full of furry fun!"
-            }
-        ],
-        "certifications": [
-            {
-                "name": "IELTS",
-                "year": "2024",
-                "description": "Certified my English skills with an overall band score of 8, and 8.5 in speaking."
-            }
-        ]
-    },
-    "portfolio": {
-        "projects": [
-            {
-                "title": "amruthaaj.com",
-                "category": "This porfolio website",
-                "image": "amruthaaj.com.jpg",
-                "technologies": "ReactJS, TypeScript",
-                "url": "https://amruthaaj.com/"
-            },
-            {
-                "title": "Laxmanfitness.in",
-                "category": "Website for my dad's business",
-                "image": "laxmanfitness.jpg",
-                "technologies": "Google AMP, HTML, CSS",
-                "url": "https://laxmanfitness.in/"
-            },
-            {
-                "title": "amruthaaj.com/TheVerge.com/",
-                "category": "Recreated the verge.com landing page",
-                "image": "verge.jpg",
-                "technologies": "HTML, CSS, JavaScript",
-                "url": "https://amruthaaj.com/TheVerge.com/"
-            }
-        ]
-    }
+	"main": {
+		"name": "Amrutha Adiyath",
+		"occupation": "Full Stack Developer",
+		"description": "I'm a programmer who loves what I do! With {{EXPERIENCE}} years of experience, I take pride in writing quality code. I have skills in front-end, back-end, and database development.",
+		"image": "profilepic.jpg",
+		"bio": "Hey there! I’m Amrutha Adiyath, and I’m enjoying life in Moose Jaw, Saskatchewan. I've spent {{EXPERIENCE}} years programming, working with front-end and back-end technologies like ReactJS, Java, Python, and PostgreSQL. There are many other technologies I have learned and used as per project needs, so I am open to any technology stacks",
+		"bio_p": "When I'm not coding, I'm spending time with my family which includes my 5 cats and my husband. Front-end dev is something that I enjoy, so I make pure JS/CSS components for fun! I'm also a big animal lover, rescuing and fostering cats (even the grumpy ones!). ",
+		"contactmessage": "Wanna chat? I'm all ears!",
+		"email": "amrutha.laxman93@gmail.com",
+		"phone": "+1 639-538-1185",
+		"address": {
+			"street": "4th Ave NW",
+			"city": "Moose Jaw",
+			"state": "Saskatchewan",
+			"zip": "S6H3X1"
+		},
+		"website": "https://amruthaaj.com",
+		"resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
+		"social": [
+			{
+				"name": "facebook",
+				"url": "http://facebook.com/a.j.amrutha",
+				"className": "fa fa-facebook"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://in.linkedin.com/in/amruthaaj",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "instagram",
+				"url": "https://www.instagram.com/amruthaaj_/",
+				"className": "fa fa-instagram"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/Amrutha-A-J",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "Here are some of the skills I’m good at:",
+		"education": [
+			{
+				"school": "Saskatchewan Polytechnic",
+				"degree": "Post Graduate Diploma in Technology Management",
+				"graduated": "2024",
+				"description": "This program sharpened my Java, Python, and SQL Server skills for project development. I learned about network management, PowerBI, and Agile project management, along with business strategies like ITIL and data privacy."
+			},
+			{
+				"school": "Government Engineering College, Palakkad (Calicut University)",
+				"degree": "Bachelor's in Technology (Computer Science and Engineering)",
+				"graduated": "2017",
+				"description": "This is where I got formal knowledge on data structures, algorithms, and complexities. My love for web development started here, I made many personal as well as freelance websites which eventually got me an internship while I was still pursuing my bachelors."
+			}
+		],
+		"work": [
+			{
+				"company": "Evolution Media Inc.",
+				"title": "Web Developer",
+				"years": "September 2024 - October 2024",
+				"description": "I teamed up with the owner and main developer, helping out with the development and maintenance of his PHP-based applications."
+			},
+			{
+				"company": "PetValu Moose Jaw",
+				"title": "Store Associate",
+				"years": "August 2023 - August 2024",
+				"description": "I assisted customers in finding what they needed and ensured their orders were processed smoothly. Building great relationships with customers is something I excel in, making sure they leave happy."
+			},
+			{
+				"company": "QBurst Technologies",
+				"title": "Full-Stack Developer",
+				"years": "March 2018 - July 2023",
+				"description": "I started my journey in front-end development with ReactJS and then switched to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend batch or order systems, and database designs. I have handled large databases that receive a high volume of queries and made them more efficient by analyzing and optimizing the queries, indexing or partitioning tables, and caching."
+			},
+			{
+				"company": "Cybrilla Technologies",
+				"title": "Developer Intern",
+				"years": "July 2016 - September 2016",
+				"description": "I got to learn the ropes in front-end tech, working on converting wireframes into actual web pages."
+			}
+		],
+		"skills": [
+			{
+				"name": "JavaScript",
+				"level": "7"
+			},
+			{
+				"name": "VueJS",
+				"level": "3"
+			},
+			{
+				"name": "ReactJS",
+				"level": "5"
+			},
+			{
+				"name": "NestJS/ Node",
+				"level": "3"
+			},
+			{
+				"name": "Python",
+				"level": "2"
+			},
+			{
+				"name": "PHP",
+				"level": "1"
+			},
+			{
+				"name": "PostgreSQL",
+				"level": "5"
+			},
+			{
+				"name": "AWS",
+				"level": "5"
+			},
+			{
+				"name": "Java Spring",
+				"level": "3"
+			},
+			{
+				"name": "TypeScript",
+				"level": "3"
+			},
+			{
+				"name": "Git",
+				"level": "7"
+			},
+			{
+				"name": "MongoDB",
+				"level": "3"
+			}
+		],
+		"volunteer": [
+			{
+				"organization": "SCRAPS Moose Jaw",
+				"role": "Volunteer - Cat Rescue & Fostering",
+				"year": "August 2023 - Present",
+				"description": "I’m helping out with SCRAPS, rescuing and fostering cats that need a bit of extra love. It’s all about giving them a cozy home, socializing them, and finding their forever families."
+			},
+			{
+				"organization": "PAWS Thrissur",
+				"role": "Volunteer - Cat Rescue & Fostering",
+				"year": "2020 - 2023",
+				"description": "I volunteered with PAWS Thrissur to rescue and foster stray cats, giving them care, attention, and a safe space until they found their new homes. I also helped spread the word about animal welfare around town."
+			}
+		],
+		"certifications": [
+			{
+				"name": "IELTS",
+				"year": "2024",
+				"description": "Certified my English skills with an overall band score of 8, and 8.5 in speaking."
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "amruthaaj.com",
+				"category": "This portfolio website",
+				"image": "amruthaaj.com.jpg",
+				"technologies": "ReactJS, TypeScript",
+				"url": "https://amruthaaj.com/"
+			},
+			{
+				"title": "Laxmanfitness.in",
+				"category": "Website for my dad's business",
+				"image": "laxmanfitness.jpg",
+				"technologies": "Google AMP, HTML, CSS",
+				"url": "https://laxmanfitness.in/"
+			},
+			{
+				"title": "amruthaaj.com/TheVerge.com/",
+				"category": "Recreated the verge.com landing page",
+				"image": "verge.jpg",
+				"technologies": "HTML, CSS, JavaScript",
+				"url": "https://amruthaaj.com/TheVerge.com/"
+			}
+		]
+	}
 }
