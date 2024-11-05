@@ -176,6 +176,13 @@
 				"image": "verge.jpg",
 				"technologies": "HTML, CSS, JavaScript",
 				"url": "https://amruthaaj.com/TheVerge.com/"
+			},
+			{
+				"title": "amruthaaj.com/hangman/",
+				"category": "Hangman game",
+				"image": "hangman.jpg",
+				"technologies": "ReactJS, HTML",
+				"url": "https://amruthaaj.com/hangman/"
 			}
 		]
 	}
