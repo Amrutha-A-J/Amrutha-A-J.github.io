@@ -76,6 +76,12 @@
 				"description": "I started my journey in front-end development with ReactJS and then switched to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend batch or order systems, and database designs. I have handled large databases that receive a high volume of queries and made them more efficient by analyzing and optimizing the queries, indexing or partitioning tables, and caching."
 			},
 			{
+				"company": "LaxmanFitness",
+				"title": "Office Admin (Part-time)",
+				"years": "February 2020 - July 2023",
+				"description": "I helped my father's fitness equipment store by handling customer enquiries, file management, and sales. I also built and managed the social media profiles and the official website."
+			},
+			{
 				"company": "Cybrilla Technologies",
 				"title": "Developer Intern",
 				"years": "July 2016 - September 2016",
