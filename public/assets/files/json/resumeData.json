@@ -10,10 +10,10 @@
 		"email": "amrutha.laxman93@gmail.com",
 		"phone": "+1 639-538-1185",
 		"address": {
-			"street": "4th Ave NW",
+			"street": "Athabasca St E",
 			"city": "Moose Jaw",
 			"state": "Saskatchewan",
-			"zip": "S6H3X1"
+			"zip": "S6H0M7"
 		},
 		"website": "https://amruthaaj.com",
 		"resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
@@ -58,10 +58,10 @@
 		],
 		"work": [
 			{
-				"company": "Evolution Media Inc.",
-				"title": "Web Developer",
-				"years": "September 2024 - October 2024",
-				"description": "I teamed up with the owner and main developer, helping out with the development and maintenance of his PHP-based applications."
+				"company": "Moose Jaw & District Food Bank",
+				"title": "Technical and Client Resource Coordinator",
+				"years": "January 2025 - Present",
+				"description": "Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit. Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times. Provide hands-on technical training for staff and volunteers, enhance website functionality, and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders."
 			},
 			{
 				"company": "PetValu Moose Jaw",
