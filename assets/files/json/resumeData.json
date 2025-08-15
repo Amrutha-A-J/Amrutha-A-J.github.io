@@ -10,10 +10,10 @@
 		"email": "amrutha.laxman93@gmail.com",
 		"phone": "+1 639-538-1185",
 		"address": {
-			"street": "4th Ave NW",
+			"street": "Athabasca St E",
 			"city": "Moose Jaw",
 			"state": "Saskatchewan",
-			"zip": "S6H3X1"
+			"zip": "S6H0M7"
 		},
 		"website": "https://amruthaaj.com",
 		"resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
@@ -58,10 +58,10 @@
 		],
 		"work": [
 			{
-				"company": "Evolution Media Inc.",
-				"title": "Web Developer",
-				"years": "September 2024 - October 2024",
-				"description": "I teamed up with the owner and main developer, helping out with the development and maintenance of his PHP-based applications."
+				"company": "Moose Jaw & District Food Bank",
+				"title": "Technical and Client Resource Coordinator",
+				"years": "January 2025 - Present",
+				"description": "Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit. Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times. Provide hands-on technical training for staff and volunteers, enhance website functionality, and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders."
 			},
 			{
 				"company": "PetValu Moose Jaw",
@@ -74,12 +74,6 @@
 				"title": "Full-Stack Developer",
 				"years": "March 2018 - July 2023",
 				"description": "I started my journey in front-end development with ReactJS and then switched to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend batch or order systems, and database designs. I have handled large databases that receive a high volume of queries and made them more efficient by analyzing and optimizing the queries, indexing or partitioning tables, and caching."
-			},
-			{
-				"company": "LaxmanFitness",
-				"title": "Office Admin (Part-time)",
-				"years": "February 2020 - July 2023",
-				"description": "I helped my father's fitness equipment store by handling customer enquiries, file management, and sales. I also built and managed the social media profiles and the official website."
 			},
 			{
 				"company": "Cybrilla Technologies",
