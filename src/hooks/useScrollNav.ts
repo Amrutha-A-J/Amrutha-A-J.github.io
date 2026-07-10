@@ -1,36 +1,16 @@
 import { useEffect, useState } from 'react';
 
-const useScrollNav = () => {
-    const [navVisible, setNavVisible] = useState(true);
-    const [opaque, setOpaque] = useState(false);
+const useScrollNav = (threshold = 40) => {
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-        const handleScroll = () => {
-            const headerHeight = document.querySelector('header')?.clientHeight || 0;
-            const scrollY = window.scrollY;
+        const handleScroll = () => setScrolled(window.scrollY > threshold);
+        handleScroll();
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [threshold]);
 
-            if (scrollY > headerHeight * 0.2 && scrollY < headerHeight) {
-                setNavVisible(false);
-            } else {
-                if (scrollY < headerHeight * 0.2) {
-                    setOpaque(false);
-                    setNavVisible(true);
-                } else {
-                    setOpaque(true);
-                    setNavVisible(true);
-                }
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        // Clean up the event listener on unmount
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    return { navVisible, opaque };
+    return { scrolled };
 };
 
 export default useScrollNav;

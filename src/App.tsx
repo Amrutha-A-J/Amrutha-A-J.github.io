@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';
 import Portfolio from './components/portfolio/Portfolio';
+import Personal from './components/personal/Personal';
 
 import { ResumeData } from './types/types';
 
@@ -38,11 +39,15 @@ const App = () => {
 					<About data={resumeData.main} />
 					<Resume data={resumeData.resume} />						
 					<Portfolio data={resumeData.portfolio} />
+					<Personal data={resumeData.main} />
 					<Contact data={resumeData.main} />
 					<Footer data={resumeData.main} />
 				</>
 			) : (
-				<p>Loading...</p>
+				<div className="app-loader">
+					<span className="loader-dot" />
+					<span>Loading experience...</span>
+				</div>
 			)}
 		</div>
 	);

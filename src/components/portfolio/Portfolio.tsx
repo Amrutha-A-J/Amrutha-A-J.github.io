@@ -1,43 +1,66 @@
 import React from 'react';
 import './Portfolio.css';
 import { PortfolioData } from '../../types/types';
+import Icon from '../icons/Icon';
+import useInView from '../../hooks/useInView';
 
 interface PortfolioProps {
     data: PortfolioData;
 }
 
 const Portfolio: React.FC<PortfolioProps> = ({ data }) => {
-    if (!data) return null;
+    const { ref: headRef, inView: headInView } = useInView<HTMLDivElement>();
+    const { ref: gridRef, inView: gridInView } = useInView<HTMLDivElement>();
 
-    const projects = data.projects.map((project) => {
-        const projectImage = `assets/img/portfolio/${project.image}`;
-        return (
-            <div key={project.title} className="portfolio-item">
-                <div className="item-wrap">
-                    <a href={project.url} title={project.title} target="_blank" rel="noopener noreferrer">
-                        <img alt={project.title} src={projectImage} />
-                        <div className="overlay">
-                            <div className="portfolio-item-meta">
-                                <h5>{project.title}</h5>
-                                <p>{project.category}</p>
-                                <p>Technologies used: {project.technologies}</p>
-                            </div>
-                        </div>
-                        <div className="link-icon">
-                            <i className="fa fa-link"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        );
-    });
+    if (!data) return null;
 
     return (
         <section id="portfolio">
-            <div className="portfolio-container">
-                <h1>Check Out Some of My Works.</h1>
-                <div id="portfolio-wrapper">
-                    {projects}
+            <div className="section-container">
+                <div ref={headRef} className={`section-head reveal${headInView ? ' is-visible' : ''}`}>
+                    <span className="section-kicker">03 / Selected Work</span>
+                    <h2 className="section-title">
+                        Things I&rsquo;ve <span>built</span>
+                    </h2>
+                </div>
+
+                <div ref={gridRef} className={`portfolio-grid reveal-stagger${gridInView ? ' is-visible' : ''}`}>
+                    {data.projects.map((project) => {
+                        const projectImage = `assets/img/portfolio/${project.image}`;
+                        const tech = project.technologies.split(',').map((t) => t.trim());
+
+                        return (
+                            <a
+                                key={project.title}
+                                className="portfolio-card glass-card"
+                                href={project.url}
+                                title={project.title}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="portfolio-image">
+                                    <img alt={project.title} src={projectImage} />
+                                    <div className="portfolio-overlay">
+                                        <span className="portfolio-overlay-link">
+                                            View Project
+                                            <Icon name="external-link" />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="portfolio-body">
+                                    <h4>{project.title}</h4>
+                                    <p>{project.category}</p>
+                                    <div className="tech-pills">
+                                        {tech.map((t) => (
+                                            <span key={t} className="chip">
+                                                {t}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+                            </a>
+                        );
+                    })}
                 </div>
             </div>
         </section>

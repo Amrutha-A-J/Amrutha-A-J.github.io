@@ -1,150 +1,95 @@
 footer {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    color: #303030;
-    font-size: 14px;
-    text-align: center;
     position: relative;
+    border-top: 1px solid var(--border);
 }
 
-footer a,
-footer a:visited {
-    color: #525252;
+.footer-inner {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-footer a:hover,
-footer a:focus {
-    color: #fff;
+.footer-copyright {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-muted);
 }
 
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
+.footer-social {
+    display: flex;
+    gap: 12px;
 }
 
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
+.footer-social li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
 }
 
-.ie footer .copyright li {
-    display: inline;
+.footer-social li a:hover {
+    color: var(--accent-teal);
+    border-color: var(--accent-teal);
 }
 
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
+.footer-social .icon {
+    width: 16px;
+    height: 16px;
 }
 
-footer .copyright li:first-child:before {
-    display: none;
+.go-top {
+    position: fixed;
+    right: 28px;
+    bottom: 28px;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--on-ink) !important;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
-/* social links */
-footer .social-links {
-    margin: 18px 0 30px 0;
-    padding: 0;
-    font-size: 30px;
+.go-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
-footer .social-links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-left: 42px;
-    color: #f06000;
+.go-top:hover {
+    transform: translateY(-3px);
 }
 
-footer .social-links li:first-child {
-    margin-left: 0;
+.go-top .icon {
+    width: 18px;
+    height: 18px;
 }
-
-/* Go To Top Button */
-#go-top {
-    position: absolute;
-    top: -24px;
-    left: 50%;
-    margin-left: -30px;
-}
-
-#go-top a {
-    text-decoration: none;
-    border: 0 none;
-    display: block;
-    width: 60px;
-    height: 60px;
-    background-color: #525252;
-
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-
-    color: #fff;
-    font-size: 21px;
-    line-height: 60px;
-    border-radius: 100%;
-}
-
-#go-top a:hover {
-    background-color: #0f9095;
-}
-
-
-/* mobile wide/smaller tablets
----------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-
-    /* copyright */
-    footer .copyright li:before {
-        content: none;
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
     }
 
-    footer .copyright li {
-        margin-right: 12px;
+    .go-top {
+        right: 18px;
+        bottom: 18px;
+        width: 44px;
+        height: 44px;
     }
-
-    /* social links */
-    footer .social-links {
-        font-size: 22px;
-    }
-
-    footer .social-links li {
-        margin-left: 18px;
-    }
-
-    /* Go To Top Button */
-    #go-top {
-        margin-left: -22px;
-    }
-
-    #go-top a {
-        width: 54px;
-        height: 54px;
-        font-size: 18px;
-        line-height: 54px;
-    }
-}
-
-/* mobile narrow
-  -------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 480px) {
-
-    /* social links */
-    footer .social-links {
-        font-size: 20px;
-    }
-
-    footer .social-links li {
-        margin-left: 14px;
-    }
-
 }

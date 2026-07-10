@@ -25,6 +25,7 @@ export interface Main {
     website: string;
     resumedownload: string;
     social: Social[];
+    funFacts?: string[];
 }
 
 export interface Education {
@@ -39,11 +40,13 @@ export interface Work {
     title: string;
     years: string;
     description: string;
+    bullets?: string[];
 }
 
 export interface Skill {
     name: string;
     level: string;
+    category: string;
 }
 
 export interface Volunteer {

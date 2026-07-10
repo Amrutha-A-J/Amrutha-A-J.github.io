@@ -2,21 +2,35 @@ import { useEffect } from 'react';
 
 const useHighlightSection = (navSelector: string, sectionSelector: string) => {
     useEffect(() => {
-        const highlightCurrentSection = () => {
-            const sections = document.querySelectorAll(sectionSelector);
-            const navLinks = document.querySelectorAll(`${navSelector} a`);
+        let currentId: string | null = null;
 
-            sections.forEach(section => {
-                const rect = section.getBoundingClientRect();
-                if (rect.top >= 0 && rect.top < window.innerHeight) {
-                    navLinks.forEach(link => link.parentElement?.classList.remove("current"));
-                    const activeLink = document.querySelector(`${navSelector} a[href="#${section.id}"]`);
-                    activeLink?.parentElement?.classList.add("current");
+        const highlightCurrentSection = () => {
+            const sections = document.querySelectorAll<HTMLElement>(sectionSelector);
+            let activeId: string | null = null;
+            const navHeight = document.getElementById('nav-wrap')?.offsetHeight ?? 0;
+            const scrollPosition = window.scrollY + navHeight + window.innerHeight * 0.25;
+
+            sections.forEach((section) => {
+                if (section.offsetTop <= scrollPosition) {
+                    activeId = section.id;
                 }
             });
+
+            if (!activeId || activeId === currentId) return;
+            currentId = activeId;
+
+            const applyHighlight = () => {
+                const navLinks = document.querySelectorAll(`${navSelector} a`);
+                navLinks.forEach((link) => link.parentElement?.classList.remove('current'));
+                const activeLink = document.querySelector(`${navSelector} a[href="#${activeId}"]`);
+                activeLink?.parentElement?.classList.add('current');
+            };
+
+            applyHighlight();
         };
 
         window.addEventListener('scroll', highlightCurrentSection);
+        highlightCurrentSection();
         return () => {
             window.removeEventListener('scroll', highlightCurrentSection);
         };

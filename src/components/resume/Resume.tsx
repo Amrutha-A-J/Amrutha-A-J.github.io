@@ -1,132 +1,149 @@
 import React from 'react';
 import './Resume.css';
-import { ResumeData } from '../../types/types';
+import { ResumeData, Skill } from '../../types/types';
+import Icon from '../icons/Icon';
+import useInView from '../../hooks/useInView';
 
 interface ResumeProps {
     data: ResumeData;
 }
 
+const RevealGroup: React.FC<{ className: string; children: React.ReactNode }> = ({ className, children }) => {
+    const { ref, inView } = useInView<HTMLDivElement>();
+    return (
+        <div ref={ref} className={`${className} reveal-stagger${inView ? ' is-visible' : ''}`}>
+            {children}
+        </div>
+    );
+};
+
+const skillTier = (rating: number): string => {
+    if (rating >= 9) return 'Expert';
+    if (rating >= 7) return 'Advanced';
+    if (rating >= 5) return 'Proficient';
+    return 'Familiar';
+};
+
+const SkillsGrid: React.FC<{ skills: Skill[] }> = ({ skills }) => {
+    const { ref, inView } = useInView<HTMLDivElement>();
+    return (
+        <div ref={ref} className={`skills-grid reveal-stagger${inView ? ' is-visible' : ''}`}>
+            {skills.map((skill) => {
+                const rating = parseInt(skill.level, 10);
+                const pct = Math.min(100, (rating / 10) * 100);
+                return (
+                    <div key={skill.name} className="skill-card">
+                        <div className="skill-card-head">
+                            <span className="skill-name">{skill.name}</span>
+                            <span className="skill-tier">{skillTier(rating)}</span>
+                        </div>
+                        <div className="skill-track">
+                            <span className="skill-fill" style={{ width: inView ? `${pct}%` : '0%' }} />
+                        </div>
+                    </div>
+                );
+            })}
+        </div>
+    );
+};
+
 const Resume: React.FC<ResumeProps> = ({ data }) => {
+    const { ref: headRef, inView: headInView } = useInView<HTMLDivElement>();
+
     if (!data) return null;
 
     const { education, work, skills, volunteer, certifications, skillmessage } = data;
 
-    // Calculate total years of experience since 2017
-    const currentYear = new Date().getFullYear();
-    const totalYearsExperience = currentYear - 2017;
-
-    // Generate education items
-    const educationItems = education.map((edu) => (
-        <div key={edu.school}>
-            <h3>{edu.school}</h3>
-            <p className="info">
-                {edu.degree}<br />
-                {edu.graduated}
-            </p>
-            <p className="info">{edu.description}</p>
-        </div>
-    ));
-
-    // Generate work items
-    const workItems = work.map((job) => (
-        <div key={job.company}>
-            <h3>{job.company}</h3>
-            <p className="info">
-                {job.title}<br />
-                {job.years}
-            </p>
-            <p className="info">{job.description}</p>
-        </div>
-    ));
-
-    // Generate volunteer items
-    const volunteerItems = volunteer.map((vol) => (
-        <div key={vol.organization}>
-            <h3>{vol.organization}</h3>
-            <p className="info">
-                {vol.role}<br />
-                {vol.year}
-            </p>
-            <p className="info">{vol.description}</p>
-        </div>
-    ));
-
-    // Generate certification items
-    const certificationItems = certifications.map((cert) => (
-        <div key={cert.name}>
-            <h3>{cert.name}</h3>
-            <p className="info">
-                <em className="date">{cert.year}</em>
-            </p>
-            <p>{cert.description}</p>
-        </div>
-    ));
-
-    // Calculate percentage for each skill based on years of experience
-    const skillItems = skills.map((skill) => {
-        const skillYears = parseInt(skill.level, 10);
-        const skillPercentage = totalYearsExperience > 0 ? ((skillYears / totalYearsExperience) * 100).toFixed(2) : '0.00';
-
-        const className = `bar-expand ${skill.name.toLowerCase()}`;
-        return (
-            <li key={skill.name}>
-                <span style={{ width: `${skillPercentage}%` }} className={className}></span>
-                <em>{skill.name} <span style={{ fontSize: '8px' }}>({skillYears} years)</span></em>
-            </li>
-        );
-    });
-
     return (
-        <section id="resume" className="resume-section">
-            <div className="row education">
-                <div className="three columns header-col">
-                    <h1><span>Education</span></h1>
+        <section id="resume">
+            <div className="section-container">
+                <div ref={headRef} className={`section-head reveal${headInView ? ' is-visible' : ''}`}>
+                    <span className="section-kicker">02 / Experience</span>
+                    <h2 className="section-title">
+                        My journey <span>so far</span>
+                    </h2>
                 </div>
-                <div className="nine columns main-col">
-                    <div className="education-items">
-                        {educationItems}
-                    </div>
-                </div>
-            </div>
 
-            <div className="row work">
-                <div className="three columns header-col">
-                    <h1><span>Work</span></h1>
+                <div className="resume-block">
+                    <h3 className="block-title">
+                        <Icon name="briefcase" />
+                        Work Experience
+                    </h3>
+                    <RevealGroup className="timeline">
+                        {work.map((job) => (
+                            <div key={job.company} className="timeline-item">
+                                <span className="timeline-dot" />
+                                <div className="timeline-content glass-card">
+                                    <span className="timeline-date">{job.years}</span>
+                                    <h4>{job.title}</h4>
+                                    <p className="timeline-org">{job.company}</p>
+                                    <p className="timeline-desc">{job.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </RevealGroup>
                 </div>
-                <div className="nine columns main-col">
-                    {workItems}
-                </div>
-            </div>
 
-            <div className="row skill">
-                <div className="three columns header-col">
-                    <h1><span>Skills</span></h1>
+                <div className="resume-block">
+                    <h3 className="block-title">
+                        <Icon name="graduation-cap" />
+                        Education
+                    </h3>
+                    <RevealGroup className="timeline">
+                        {education.map((edu) => (
+                            <div key={edu.school} className="timeline-item">
+                                <span className="timeline-dot" />
+                                <div className="timeline-content glass-card">
+                                    <span className="timeline-date">{edu.graduated}</span>
+                                    <h4>{edu.degree}</h4>
+                                    <p className="timeline-org">{edu.school}</p>
+                                    <p className="timeline-desc">{edu.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </RevealGroup>
                 </div>
-                <div className="nine columns main-col">
-                    <p>{skillmessage}</p>
-                    <div className="bars">
-                        <ul className="skills">
-                            {skillItems}
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
-            <div className="row volunteer">
-                <div className="three columns header-col">
-                    <h1><span>Volunteering</span></h1>
+                <div className="resume-block">
+                    <h3 className="block-title">
+                        <Icon name="badge" />
+                        Skills
+                    </h3>
+                    <p className="block-lead">{skillmessage}</p>
+                    <SkillsGrid skills={skills} />
                 </div>
-                <div className="nine columns main-col">
-                    {volunteerItems}
-                </div>
-            </div>
 
-            <div className="row certifications">
-                <div className="three columns header-col">
-                    <h1><span>Certifications</span></h1>
+                <div className="resume-block">
+                    <h3 className="block-title">
+                        <Icon name="heart" />
+                        Volunteering
+                    </h3>
+                    <RevealGroup className="card-grid">
+                        {volunteer.map((vol) => (
+                            <div key={vol.organization} className="info-card glass-card">
+                                <span className="timeline-date">{vol.year}</span>
+                                <h4>{vol.role}</h4>
+                                <p className="timeline-org">{vol.organization}</p>
+                                <p className="timeline-desc">{vol.description}</p>
+                            </div>
+                        ))}
+                    </RevealGroup>
                 </div>
-                <div className="nine columns main-col">
-                    {certificationItems}
+
+                <div className="resume-block">
+                    <h3 className="block-title">
+                        <Icon name="badge" />
+                        Certifications
+                    </h3>
+                    <RevealGroup className="card-grid">
+                        {certifications.map((cert) => (
+                            <div key={cert.name} className="info-card glass-card">
+                                <span className="timeline-date">{cert.year}</span>
+                                <h4>{cert.name}</h4>
+                                <p className="timeline-desc">{cert.description}</p>
+                            </div>
+                        ))}
+                    </RevealGroup>
                 </div>
             </div>
         </section>

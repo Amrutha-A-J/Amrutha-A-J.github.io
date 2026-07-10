@@ -5,10 +5,16 @@ const useSmoothScroll = () => {
         event.preventDefault();
         const target = document.getElementById(targetId);
         if (target) {
+            const navHeight = document.getElementById('nav-wrap')?.offsetHeight ?? 0;
+            const targetTop = target.getBoundingClientRect().top + window.scrollY;
+            const top = Math.max(0, targetTop - navHeight - 20);
+
             window.scrollTo({
-                top: target.offsetTop,
+                top,
                 behavior: 'smooth',
             });
+
+            window.history.replaceState(null, '', `#${targetId}`);
         }
     };
 
