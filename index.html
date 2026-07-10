@@ -2,14 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="shortcut icon" href="/assets/img/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amrutha Adiyath</title>
-    <script type="module" crossorigin src="/assets/index-Cw1DLGrZ.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Pbnpzohd.css">
+    <meta name="description" content="Amrutha Adiyath — Full Stack Developer specializing in React, Node, and PostgreSQL." />
+    <link rel="shortcut icon" href="/assets/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>Amrutha Adiyath — Full Stack Developer</title>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark';
+          document.documentElement.dataset.theme = theme;
+        } catch (e) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-CFzgrG0I.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BG-Rleu4.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>

@@ -17,6 +17,13 @@
 		},
 		"website": "https://amruthaaj.com",
 		"resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
+		"funFacts": [
+			"Full-stack developer by day, certified cat wrangler by night.",
+			"Made the move from Thrissur, Kerala to Moose Jaw, Saskatchewan — kept the cats, added a lot more snow.",
+			"Still builds small JS/CSS experiments for fun when she's not shipping production code.",
+			"8 years of code, 5 cats, and one very patient husband.",
+			"Currently fostering rescue cats and debugging everything else."
+		],
 		"social": [
 			{
 				"name": "facebook",
@@ -61,75 +68,105 @@
 				"company": "Moose Jaw & District Food Bank",
 				"title": "Technical and Client Resource Coordinator",
 				"years": "January 2025 - Present",
-				"description": "Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit. Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times. Provide hands-on technical training for staff and volunteers, enhance website functionality, and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders."
+				"description": "Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit. Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times. Provide hands-on technical training for staff and volunteers, enhance website functionality, and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders.",
+				"bullets": [
+					"Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit.",
+					"Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times.",
+					"Provide hands-on technical training for staff and volunteers.",
+					"Enhance website functionality and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders."
+				]
 			},
 			{
 				"company": "PetValu Moose Jaw",
 				"title": "Store Associate",
 				"years": "August 2023 - August 2024",
-				"description": "I assisted customers in finding what they needed and ensured their orders were processed smoothly. Building great relationships with customers is something I excel in, making sure they leave happy."
+				"description": "I assisted customers in finding what they needed and ensured their orders were processed smoothly. Building great relationships with customers is something I excel in, making sure they leave happy.",
+				"bullets": [
+					"Assisted customers in finding what they needed and ensured their orders were processed smoothly.",
+					"Built lasting customer relationships with a focus on a great in-store experience."
+				]
 			},
 			{
 				"company": "QBurst Technologies",
 				"title": "Full-Stack Developer",
 				"years": "March 2018 - July 2023",
-				"description": "I started my journey in front-end development with ReactJS and then switched to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend batch or order systems, and database designs. I have handled large databases that receive a high volume of queries and made them more efficient by analyzing and optimizing the queries, indexing or partitioning tables, and caching."
+				"description": "I started my journey in front-end development with ReactJS and then switched to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend batch or order systems, and database designs. I have handled large databases that receive a high volume of queries and made them more efficient by analyzing and optimizing the queries, indexing or partitioning tables, and caching.",
+				"bullets": [
+					"Started in front-end development with ReactJS, then moved into back-end work with Java, Python, and NodeJS.",
+					"Delivered front-end solutions, backend batch and order systems, and database designs across multiple client projects.",
+					"Handled large, high-volume databases and improved performance by optimizing queries, indexing/partitioning tables, and caching."
+				]
 			},
 			{
 				"company": "Cybrilla Technologies",
 				"title": "Developer Intern",
 				"years": "July 2016 - September 2016",
-				"description": "I got to learn the ropes in front-end tech, working on converting wireframes into actual web pages."
+				"description": "I got to learn the ropes in front-end tech, working on converting wireframes into actual web pages.",
+				"bullets": [
+					"Learned the ropes of front-end development by converting wireframes into working web pages."
+				]
 			}
 		],
 		"skills": [
 			{
 				"name": "JavaScript",
-				"level": "7"
-			},
-			{
-				"name": "VueJS",
-				"level": "3"
-			},
-			{
-				"name": "ReactJS",
-				"level": "5"
-			},
-			{
-				"name": "NestJS/ Node",
-				"level": "3"
-			},
-			{
-				"name": "Python",
-				"level": "2"
-			},
-			{
-				"name": "PHP",
-				"level": "1"
-			},
-			{
-				"name": "PostgreSQL",
-				"level": "5"
-			},
-			{
-				"name": "AWS",
-				"level": "5"
-			},
-			{
-				"name": "Java Spring",
-				"level": "3"
-			},
-			{
-				"name": "TypeScript",
-				"level": "3"
+				"level": "9",
+				"category": "Language"
 			},
 			{
 				"name": "Git",
-				"level": "7"
+				"level": "9",
+				"category": "Tool"
+			},
+			{
+				"name": "ReactJS",
+				"level": "8",
+				"category": "Library"
+			},
+			{
+				"name": "PostgreSQL",
+				"level": "8",
+				"category": "Database"
+			},
+			{
+				"name": "AWS",
+				"level": "7",
+				"category": "Tool"
+			},
+			{
+				"name": "TypeScript",
+				"level": "6",
+				"category": "Language"
+			},
+			{
+				"name": "NestJS/ Node",
+				"level": "6",
+				"category": "Framework"
+			},
+			{
+				"name": "Java Spring",
+				"level": "5",
+				"category": "Framework"
 			},
 			{
 				"name": "MongoDB",
-				"level": "3"
+				"level": "5",
+				"category": "Database"
+			},
+			{
+				"name": "VueJS",
+				"level": "4",
+				"category": "Library"
+			},
+			{
+				"name": "Python",
+				"level": "4",
+				"category": "Language"
+			},
+			{
+				"name": "PHP",
+				"level": "2",
+				"category": "Language"
 			}
 		],
 		"volunteer": [
@@ -162,6 +199,27 @@
 				"image": "amruthaaj.com.jpg",
 				"technologies": "ReactJS, TypeScript",
 				"url": "https://amruthaaj.com/"
+			},
+			{
+				"title": "Moose Jaw Food Bank App",
+				"category": "Client and volunteer appointment booking dashboard",
+				"image": "mj-foodbank-app-cover.png",
+				"technologies": "ReactJS, Scheduling, PostgreSQL",
+				"url": "https://mjfoodbank.org/"
+			},
+			{
+				"title": "Moose Jaw Food Bank Mobile App",
+				"category": "Mobile booking experience for food bank clients",
+				"image": "mj-foodbank-android-cover.png",
+				"technologies": "Android, Mobile UI, Scheduling",
+				"url": "https://mjfoodbank.org/"
+			},
+			{
+				"title": "Food Bank Phone Booking IVR",
+				"category": "Phone-based appointment booking flow",
+				"image": "ivr-cover.png",
+				"technologies": "IVR, Automation, Scheduling",
+				"url": "https://mjfoodbank.org/"
 			},
 			{
 				"title": "Laxmanfitness.in",
