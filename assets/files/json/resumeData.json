@@ -1,247 +1,258 @@
 {
-	"main": {
-		"name": "Amrutha Adiyath",
-		"occupation": "Full Stack Developer",
-		"description": "I'm a programmer who loves what I do! With {{EXPERIENCE}} years of experience, I take pride in writing quality code. I have skills in front-end, back-end, and database development.",
-		"image": "profilepic.jpg",
-		"bio": "Hey there! I’m Amrutha Adiyath from Moose Jaw, Saskatchewan. I've spent {{EXPERIENCE}} years programming, working with front-end and back-end technologies like ReactJS, Java, Python, and PostgreSQL. There are many other technologies I have learned and used as per project needs, so I am open to any technology stacks",
-		"bio_p": "When I'm not coding, I'm spending time with my family which includes my 5 cats and my husband. Front-end dev is something that I enjoy, so I make pure JS/CSS components for fun! I'm also a big animal lover, rescuing and fostering cats. ",
-		"contactmessage": "Wanna chat? I'm all ears!",
-		"email": "amrutha.laxman93@gmail.com",
-		"phone": "+1 639-538-1185",
-		"address": {
-			"street": "Athabasca St E",
-			"city": "Moose Jaw",
-			"state": "Saskatchewan",
-			"zip": "S6H0M7"
-		},
-		"website": "https://amruthaaj.com",
-		"resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
-		"funFacts": [
-			"Full-stack developer by day, certified cat wrangler by night.",
-			"Made the move from Thrissur, Kerala to Moose Jaw, Saskatchewan — kept the cats, added a lot more snow.",
-			"Still builds small JS/CSS experiments for fun when she's not shipping production code.",
-			"8 years of code, 5 cats, and one very patient husband.",
-			"Currently fostering rescue cats and debugging everything else."
-		],
-		"social": [
-			{
-				"name": "facebook",
-				"url": "http://facebook.com/a.j.amrutha",
-				"className": "fa fa-facebook"
-			},
-			{
-				"name": "linkedin",
-				"url": "https://in.linkedin.com/in/amruthaaj",
-				"className": "fa fa-linkedin"
-			},
-			{
-				"name": "instagram",
-				"url": "https://www.instagram.com/amruthaaj_/",
-				"className": "fa fa-instagram"
-			},
-			{
-				"name": "github",
-				"url": "https://github.com/Amrutha-A-J",
-				"className": "fa fa-github"
-			}
-		]
-	},
-	"resume": {
-		"skillmessage": "Here are some of the skills I’m good at:",
-		"education": [
-			{
-				"school": "Saskatchewan Polytechnic",
-				"degree": "Post Graduate Diploma in Technology Management",
-				"graduated": "2024",
-				"description": "This program sharpened my Java, Python, and SQL Server skills for project development. I learned about network management, PowerBI, and Agile project management, along with business strategies like ITIL and data privacy."
-			},
-			{
-				"school": "Government Engineering College, Palakkad (Calicut University)",
-				"degree": "Bachelor's in Technology (Computer Science and Engineering)",
-				"graduated": "2017",
-				"description": "This is where I got formal knowledge on data structures, algorithms, and complexities. My love for web development started here, I made many personal as well as freelance websites which eventually got me an internship while I was still pursuing my bachelors."
-			}
-		],
-		"work": [
-			{
-				"company": "Moose Jaw & District Food Bank",
-				"title": "Technical and Client Resource Coordinator",
-				"years": "January 2025 - Present",
-				"description": "Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit. Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times. Provide hands-on technical training for staff and volunteers, enhance website functionality, and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders.",
-				"bullets": [
-					"Lead digital transformation initiatives to improve service delivery for a high-demand nonprofit.",
-					"Overhauled and maintain online systems for client intake, volunteer scheduling, and appointments, reducing manual processes and wait times.",
-					"Provide hands-on technical training for staff and volunteers.",
-					"Enhance website functionality and develop automated workflows that improve data accuracy and reporting for internal and external stakeholders."
-				]
-			},
-			{
-				"company": "PetValu Moose Jaw",
-				"title": "Store Associate",
-				"years": "August 2023 - August 2024",
-				"description": "I assisted customers in finding what they needed and ensured their orders were processed smoothly. Building great relationships with customers is something I excel in, making sure they leave happy.",
-				"bullets": [
-					"Assisted customers in finding what they needed and ensured their orders were processed smoothly.",
-					"Built lasting customer relationships with a focus on a great in-store experience."
-				]
-			},
-			{
-				"company": "QBurst Technologies",
-				"title": "Full-Stack Developer",
-				"years": "March 2018 - July 2023",
-				"description": "I started my journey in front-end development with ReactJS and then switched to back-end work with Java, Python, and NodeJS. My projects included crafting front-end solutions, backend batch or order systems, and database designs. I have handled large databases that receive a high volume of queries and made them more efficient by analyzing and optimizing the queries, indexing or partitioning tables, and caching.",
-				"bullets": [
-					"Started in front-end development with ReactJS, then moved into back-end work with Java, Python, and NodeJS.",
-					"Delivered front-end solutions, backend batch and order systems, and database designs across multiple client projects.",
-					"Handled large, high-volume databases and improved performance by optimizing queries, indexing/partitioning tables, and caching."
-				]
-			},
-			{
-				"company": "Cybrilla Technologies",
-				"title": "Developer Intern",
-				"years": "July 2016 - September 2016",
-				"description": "I got to learn the ropes in front-end tech, working on converting wireframes into actual web pages.",
-				"bullets": [
-					"Learned the ropes of front-end development by converting wireframes into working web pages."
-				]
-			}
-		],
-		"skills": [
-			{
-				"name": "JavaScript",
-				"level": "9",
-				"category": "Language"
-			},
-			{
-				"name": "Git",
-				"level": "9",
-				"category": "Tool"
-			},
-			{
-				"name": "ReactJS",
-				"level": "8",
-				"category": "Library"
-			},
-			{
-				"name": "PostgreSQL",
-				"level": "8",
-				"category": "Database"
-			},
-			{
-				"name": "AWS",
-				"level": "7",
-				"category": "Tool"
-			},
-			{
-				"name": "TypeScript",
-				"level": "6",
-				"category": "Language"
-			},
-			{
-				"name": "NestJS/ Node",
-				"level": "6",
-				"category": "Framework"
-			},
-			{
-				"name": "Java Spring",
-				"level": "5",
-				"category": "Framework"
-			},
-			{
-				"name": "MongoDB",
-				"level": "5",
-				"category": "Database"
-			},
-			{
-				"name": "VueJS",
-				"level": "4",
-				"category": "Library"
-			},
-			{
-				"name": "Python",
-				"level": "4",
-				"category": "Language"
-			},
-			{
-				"name": "PHP",
-				"level": "2",
-				"category": "Language"
-			}
-		],
-		"volunteer": [
-			{
-				"organization": "SCRAPS Moose Jaw",
-				"role": "Volunteer - Cat Rescue & Fostering",
-				"year": "August 2023 - Present",
-				"description": "I’m helping out with SCRAPS, rescuing and fostering cats that need a bit of extra love. It’s all about giving them a cozy home, socializing them, and finding their forever families."
-			},
-			{
-				"organization": "PAWS Thrissur",
-				"role": "Volunteer - Cat Rescue & Fostering",
-				"year": "2020 - 2023",
-				"description": "I volunteered with PAWS Thrissur to rescue and foster stray cats, giving them care, attention, and a safe space until they found their new homes. I also helped spread the word about animal welfare around town."
-			}
-		],
-		"certifications": [
-			{
-				"name": "IELTS",
-				"year": "2024",
-				"description": "Certified my English skills with an overall band score of 8, and 8.5 in speaking."
-			}
-		]
-	},
-	"portfolio": {
-		"projects": [
-			{
-				"title": "amruthaaj.com",
-				"category": "This portfolio website",
-				"image": "amruthaaj.com.jpg",
-				"technologies": "ReactJS, TypeScript",
-				"url": "https://amruthaaj.com/"
-			},
-			{
-				"title": "Moose Jaw Food Bank App",
-				"category": "Client and volunteer appointment booking dashboard",
-				"image": "mj-foodbank-app-cover.png",
-				"technologies": "ReactJS, Scheduling, PostgreSQL",
-				"url": "https://mjfoodbank.org/"
-			},
-			{
-				"title": "Moose Jaw Food Bank Mobile App",
-				"category": "Mobile booking experience for food bank clients",
-				"image": "mj-foodbank-android-cover.png",
-				"technologies": "Android, Mobile UI, Scheduling",
-				"url": "https://mjfoodbank.org/"
-			},
-			{
-				"title": "Food Bank Phone Booking IVR",
-				"category": "Phone-based appointment booking flow",
-				"image": "ivr-cover.png",
-				"technologies": "IVR, Automation, Scheduling",
-				"url": "https://mjfoodbank.org/"
-			},
-			{
-				"title": "Laxmanfitness.in",
-				"category": "Website for my dad's business",
-				"image": "laxmanfitness.jpg",
-				"technologies": "Google AMP, HTML, CSS",
-				"url": "https://laxmanfitness.in/"
-			},
-			{
-				"title": "amruthaaj.com/TheVerge.com/",
-				"category": "Recreated the verge.com landing page",
-				"image": "verge.jpg",
-				"technologies": "HTML, CSS, JavaScript",
-				"url": "https://amruthaaj.com/TheVerge.com/"
-			},
-			{
-				"title": "amruthaaj.com/hangman/",
-				"category": "Hangman game",
-				"image": "hangman.jpg",
-				"technologies": "ReactJS, HTML",
-				"url": "https://amruthaaj.com/hangman/"
-			}
-		]
-	}
+  "main": {
+    "name": "Amrutha Adiyath",
+    "occupation": "Full Stack Developer",
+    "description": "I'm a full-stack developer who genuinely enjoys building software. With {{EXPERIENCE}} years of experience, I focus on creating clean, maintainable, and reliable applications across the front end, back end, and database layers.",
+    "image": "profilepic.jpg",
+    "bio": "Hey, I'm Amrutha Adiyath from Moose Jaw, Saskatchewan. I've spent the last {{EXPERIENCE}} years building web applications using technologies like React, Java, Python, TypeScript, and PostgreSQL. Throughout my career, I've worked across the full stack, learning and adopting new technologies whenever a project required them. I'm always excited to pick up new tools and frameworks to solve real-world problems.",
+    "bio_p": "When I'm away from the keyboard, you'll usually find me spending time with my husband and our five cats. I enjoy building small JavaScript and CSS experiments just for fun and have a passion for creating polished front-end experiences. I'm also a dedicated animal lover who spends my free time rescuing and fostering cats until they find their forever homes.",
+    "contactmessage": "Have a project, opportunity, or just want to say hello? I'd love to hear from you.",
+    "email": "amrutha.laxman93@gmail.com",
+    "phone": "+1 639-538-1185",
+    "address": {
+      "street": "Athabasca St E",
+      "city": "Moose Jaw",
+      "state": "Saskatchewan",
+      "zip": "S6H0M7"
+    },
+    "website": "https://amruthaaj.com",
+    "resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
+    "funFacts": [
+      "Full-stack developer by profession, certified cat wrangler by choice.",
+      "Moved from Thrissur, Kerala to Moose Jaw, Saskatchewan—traded palm trees for snowstorms.",
+      "I build JavaScript and CSS experiments for fun, even outside of work.",
+      "{{EXPERIENCE}} years of coding, five rescue cats, and one incredibly patient husband.",
+      "Currently rescuing cats, building software, and debugging both whenever necessary."
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/a.j.amrutha",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://in.linkedin.com/in/amruthaaj",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/amruthaaj_/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Amrutha-A-J",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here are some of the technologies I've worked with throughout my career:",
+    "education": [
+      {
+        "school": "Saskatchewan Polytechnic",
+        "degree": "Post Graduate Diploma in Technology Management",
+        "graduated": "2024",
+        "description": "Strengthened my software development skills through hands-on projects using Java, Python, and SQL Server. I also gained experience in networking, Power BI, Agile project management, ITIL practices, business strategy, and data privacy."
+      },
+      {
+        "school": "Government Engineering College, Palakkad (Calicut University)",
+        "degree": "Bachelor's in Technology (Computer Science and Engineering)",
+        "graduated": "2017",
+        "description": "Built a strong foundation in computer science through courses in algorithms, data structures, and software engineering. This is also where my passion for web development began, leading me to build personal and freelance websites that eventually helped me land my first development internship."
+      }
+    ],
+    "work": [
+      {
+        "company": "Moose Jaw & District Food Bank",
+        "title": "Technical and Client Resource Coordinator",
+        "years": "January 2025 - Present",
+        "description": "Lead digital transformation initiatives for a high-demand nonprofit, designing and maintaining web and mobile applications that streamline client intake, volunteer scheduling, and appointment management. Built automated workflows and reporting tools that reduced manual effort, improved data accuracy, and enhanced service delivery for staff, volunteers, and clients.",
+        "bullets": [
+          "Designed, developed, deployed, and maintain a full-stack web platform and companion mobile applications for client intake, volunteer scheduling, and appointment management.",
+          "Built an IVR booking system that allows clients without smartphones to schedule and manage appointments by phone.",
+          "Improved operational efficiency by automating workflows and reducing manual administrative tasks.",
+          "Delivered technical training and ongoing support for staff and volunteers.",
+          "Enhanced reporting and data accuracy through database optimization and process improvements."
+        ],
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Express.js",
+          "AWS Lightsail",
+          "PostgreSQL",
+          "Vite"
+        ]
+      },
+      {
+        "company": "PetValu Moose Jaw",
+        "title": "Store Associate",
+        "years": "August 2023 - August 2024",
+        "description": "Helped customers find the right products while delivering a friendly and knowledgeable shopping experience. Built lasting relationships with customers through excellent service, product knowledge, and genuine care for pets and their owners.",
+        "bullets": [
+          "Provided exceptional customer service by helping customers find products tailored to their pets' needs.",
+          "Built lasting customer relationships through product knowledge, friendly communication, and personalized service."
+        ]
+      },
+      {
+        "company": "QBurst Technologies",
+        "title": "Full-Stack Developer",
+        "years": "March 2018 - July 2023",
+        "description": "Worked across the full stack, delivering modern web applications using React, Java, Python, and Node.js. Designed scalable backend services, optimized high-volume databases, and built responsive front-end experiences for enterprise clients while continuously improving application performance and reliability.",
+        "bullets": [
+          "Developed responsive front-end applications using React and modern JavaScript.",
+          "Built scalable backend services using Java, Python, and Node.js.",
+          "Designed and optimized high-volume databases through query tuning, indexing, partitioning, and caching.",
+          "Collaborated with cross-functional teams to deliver reliable software for enterprise clients."
+        ]
+      },
+      {
+        "company": "Cybrilla Technologies",
+        "title": "Developer Intern",
+        "years": "July 2016 - September 2016",
+        "description": "Began my professional software development journey by transforming UI wireframes into responsive, production-ready web pages while learning modern front-end development practices.",
+        "bullets": [
+          "Converted design wireframes into responsive, cross-browser web pages.",
+          "Learned modern front-end development practices while working on production projects."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "9",
+        "category": "Language"
+      },
+      {
+        "name": "Git",
+        "level": "9",
+        "category": "Tool"
+      },
+      {
+        "name": "React",
+        "level": "8",
+        "category": "Library"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "8",
+        "category": "Database"
+      },
+      {
+        "name": "AWS",
+        "level": "7",
+        "category": "Cloud"
+      },
+      {
+        "name": "TypeScript",
+        "level": "6",
+        "category": "Language"
+      },
+      {
+        "name": "Node.js / Express.js",
+        "level": "6",
+        "category": "Framework"
+      },
+      {
+        "name": "Java Spring",
+        "level": "5",
+        "category": "Framework"
+      },
+      {
+        "name": "MongoDB",
+        "level": "5",
+        "category": "Database"
+      },
+      {
+        "name": "Vue",
+        "level": "4",
+        "category": "Library"
+      },
+      {
+        "name": "Python",
+        "level": "4",
+        "category": "Language"
+      },
+      {
+        "name": "PHP",
+        "level": "2",
+        "category": "Language"
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "SCRAPS Moose Jaw",
+        "role": "Volunteer - Cat Rescue & Fostering",
+        "year": "August 2023 - Present",
+        "description": "Foster and care for rescue cats by providing medical support, socialization, and a safe temporary home until they're ready for adoption."
+      },
+      {
+        "organization": "PAWS Thrissur",
+        "role": "Volunteer - Cat Rescue & Fostering",
+        "year": "2020 - 2023",
+        "description": "Rescued and fostered stray cats, helping provide medical care, rehabilitation, and safe temporary homes while promoting animal welfare within the community."
+      }
+    ],
+    "certifications": [
+      {
+        "name": "IELTS",
+        "year": "2024",
+        "description": "Achieved an overall IELTS Band Score of 8.0, including an 8.5 in Speaking, demonstrating strong professional English communication skills."
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "amruthaaj.com",
+        "category": "Personal portfolio website",
+        "image": "amruthaaj.com.jpg",
+        "technologies": "React, TypeScript",
+        "url": "https://amruthaaj.com/"
+      },
+      {
+        "title": "Moose Jaw Food Bank App",
+        "category": "Client and volunteer appointment management platform",
+        "image": "mj-foodbank-app-cover.png",
+        "technologies": "React, Scheduling, PostgreSQL",
+        "url": "https://mjfoodbank.org/"
+      },
+      {
+        "title": "Moose Jaw Food Bank Mobile App",
+        "category": "Mobile appointment booking experience for food bank clients",
+        "image": "mj-foodbank-android-cover.png",
+        "technologies": "Android, Mobile UI, Scheduling",
+        "url": "https://mjfoodbank.org/"
+      },
+      {
+        "title": "Food Bank Phone Booking IVR",
+        "category": "Phone-based appointment booking system",
+        "image": "ivr-cover.png",
+        "technologies": "IVR, Automation, Scheduling",
+        "url": "https://mjfoodbank.org/"
+      },
+      {
+        "title": "Laxmanfitness.in",
+        "category": "Business website for my father's fitness equipment company",
+        "image": "laxmanfitness.jpg",
+        "technologies": "Google AMP, HTML, CSS",
+        "url": "https://laxmanfitness.in/"
+      },
+      {
+        "title": "The Verge Landing Page Clone",
+        "category": "Pixel-perfect recreation of The Verge homepage",
+        "image": "verge.jpg",
+        "technologies": "HTML, CSS, JavaScript",
+        "url": "https://amruthaaj.com/TheVerge.com/"
+      },
+      {
+        "title": "Hangman",
+        "category": "Interactive word guessing game",
+        "image": "hangman.jpg",
+        "technologies": "React, HTML",
+        "url": "https://amruthaaj.com/hangman/"
+      }
+    ]
+  }
 }
