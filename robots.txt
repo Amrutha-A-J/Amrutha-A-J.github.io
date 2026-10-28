@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://amruthaaj.com
+Sitemap: https://amruthaaj.com/sitemap.xml

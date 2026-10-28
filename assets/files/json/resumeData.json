@@ -1,12 +1,12 @@
 {
   "main": {
     "name": "Amrutha Adiyath",
-    "occupation": "Full Stack Developer",
-    "description": "I'm a full-stack developer who genuinely enjoys building software. With {{EXPERIENCE}} years of experience, I focus on creating clean, maintainable, and reliable applications across the front end, back end, and database layers.",
+    "occupation": "Full-Stack Software Developer",
+    "description": "I'm a full-stack software developer with {{EXPERIENCE}} years of experience building modern, scalable web applications. I enjoy creating clean, maintainable solutions that deliver great user experiences across the frontend, backend, and database layers.",
     "image": "profilepic.jpg",
-    "bio": "Hey, I'm Amrutha Adiyath from Moose Jaw, Saskatchewan. I've spent the last {{EXPERIENCE}} years building web applications using technologies like React, Java, Python, TypeScript, and PostgreSQL. Throughout my career, I've worked across the full stack, learning and adopting new technologies whenever a project required them. I'm always excited to pick up new tools and frameworks to solve real-world problems.",
-    "bio_p": "When I'm away from the keyboard, you'll usually find me spending time with my husband and our five cats. I enjoy building small JavaScript and CSS experiments just for fun and have a passion for creating polished front-end experiences. I'm also a dedicated animal lover who spends my free time rescuing and fostering cats until they find their forever homes.",
-    "contactmessage": "Have a project, opportunity, or just want to say hello? I'd love to hear from you.",
+    "bio": "Hi, I'm Amrutha Adiyath, a full-stack developer based in Moose Jaw, Saskatchewan. Over the past {{EXPERIENCE}} years, I've built web applications using React, TypeScript, Java, Python, PostgreSQL, and modern cloud technologies. I enjoy solving real-world problems, learning new technologies, and creating software that makes people's lives easier. I also run Pixelmoose, my solo software studio, where I design, build, and support custom websites and applications for small businesses and nonprofits.",
+    "bio_p": "Outside of software development, I spend most of my time with my husband and our five rescue cats. I enjoy creating JavaScript and CSS experiments, crafting polished user interfaces, and volunteering with animal rescue organizations by fostering cats until they find their forever homes.",
+    "contactmessage": "Whether you have a project, a career opportunity, or simply want to connect, I'd love to hear from you.",
     "email": "amrutha.laxman93@gmail.com",
     "phone": "+1 639-538-1185",
     "address": {
@@ -16,13 +16,13 @@
       "zip": "S6H0M7"
     },
     "website": "https://amruthaaj.com",
-    "resumedownload": "./assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
+    "resumedownload": "/assets/files/pdf/Amrutha_Adiyath_Resume.pdf",
     "funFacts": [
-      "Full-stack developer by profession, certified cat wrangler by choice.",
-      "Moved from Thrissur, Kerala to Moose Jaw, Saskatchewan—traded palm trees for snowstorms.",
-      "I build JavaScript and CSS experiments for fun, even outside of work.",
-      "{{EXPERIENCE}} years of coding, five rescue cats, and one incredibly patient husband.",
-      "Currently rescuing cats, building software, and debugging both whenever necessary."
+      "I write software professionally and rescue cats in my free time.",
+      "Originally from Thrissur, Kerala—now happily navigating Saskatchewan winters.",
+      "I enjoy building JavaScript and CSS experiments just for fun.",
+      "{{EXPERIENCE}} years of software development experience, five rescue cats, and one incredibly supportive husband.",
+      "I'm happiest when I'm building useful software or helping animals find loving homes."
     ],
     "social": [
       {
@@ -48,19 +48,19 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here are some of the technologies I've worked with throughout my career:",
+    "skillmessage": "Technologies and tools I've used professionally throughout my software development career:",
     "education": [
       {
         "school": "Saskatchewan Polytechnic",
         "degree": "Post Graduate Diploma in Technology Management",
         "graduated": "2024",
-        "description": "Strengthened my software development skills through hands-on projects using Java, Python, and SQL Server. I also gained experience in networking, Power BI, Agile project management, ITIL practices, business strategy, and data privacy."
+        "description": "Strengthened my software development skills through hands-on projects using Java, Python, and SQL Server while gaining practical experience in networking, Power BI, Agile project management, ITIL practices, business strategy, and data privacy."
       },
       {
         "school": "Government Engineering College, Palakkad (Calicut University)",
-        "degree": "Bachelor's in Technology (Computer Science and Engineering)",
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
         "graduated": "2017",
-        "description": "Built a strong foundation in computer science through courses in algorithms, data structures, and software engineering. This is also where my passion for web development began, leading me to build personal and freelance websites that eventually helped me land my first development internship."
+        "description": "Built a strong foundation in computer science through algorithms, data structures, software engineering, and web technologies. During this time, I developed personal and freelance websites that helped launch my professional software development career."
       }
     ],
     "work": [
@@ -68,13 +68,13 @@
         "company": "Moose Jaw & District Food Bank",
         "title": "Technical and Client Resource Coordinator",
         "years": "January 2025 - Present",
-        "description": "Lead digital transformation initiatives for a high-demand nonprofit, designing and maintaining web and mobile applications that streamline client intake, volunteer scheduling, and appointment management. Built automated workflows and reporting tools that reduced manual effort, improved data accuracy, and enhanced service delivery for staff, volunteers, and clients.",
+        "description": "Lead the design, development, and maintenance of custom web and mobile applications that support client services, volunteer management, and appointment scheduling for a high-demand nonprofit. Automated manual processes, improved operational efficiency, and introduced reporting tools that enable better decision-making.",
         "bullets": [
-          "Designed, developed, deployed, and maintain a full-stack web platform and companion mobile applications for client intake, volunteer scheduling, and appointment management.",
-          "Built an IVR booking system that allows clients without smartphones to schedule and manage appointments by phone.",
-          "Improved operational efficiency by automating workflows and reducing manual administrative tasks.",
-          "Delivered technical training and ongoing support for staff and volunteers.",
-          "Enhanced reporting and data accuracy through database optimization and process improvements."
+          "Architect, develop, deploy, and maintain full-stack web and mobile applications used daily by staff, volunteers, and clients.",
+          "Built an automated IVR appointment booking system, making services accessible for clients without smartphones.",
+          "Reduced administrative workload by automating scheduling workflows and repetitive business processes.",
+          "Provide ongoing technical training and support for staff and volunteers.",
+          "Improved reporting accuracy, database performance, and operational efficiency through process optimization."
         ],
         "technologies": [
           "React",
@@ -89,32 +89,32 @@
         "company": "PetValu Moose Jaw",
         "title": "Store Associate",
         "years": "August 2023 - August 2024",
-        "description": "Helped customers find the right products while delivering a friendly and knowledgeable shopping experience. Built lasting relationships with customers through excellent service, product knowledge, and genuine care for pets and their owners.",
+        "description": "Delivered exceptional customer service by helping pet owners find products tailored to their animals' needs while building lasting customer relationships through product knowledge and genuine care.",
         "bullets": [
-          "Provided exceptional customer service by helping customers find products tailored to their pets' needs.",
-          "Built lasting customer relationships through product knowledge, friendly communication, and personalized service."
+          "Provided personalized product recommendations based on pets' individual needs.",
+          "Built strong customer relationships through friendly communication and exceptional service."
         ]
       },
       {
         "company": "QBurst Technologies",
         "title": "Full-Stack Developer",
         "years": "March 2018 - July 2023",
-        "description": "Worked across the full stack, delivering modern web applications using React, Java, Python, and Node.js. Designed scalable backend services, optimized high-volume databases, and built responsive front-end experiences for enterprise clients while continuously improving application performance and reliability.",
+        "description": "Designed and delivered enterprise-scale web applications across the full technology stack using React, Java, Python, Node.js, and PostgreSQL. Collaborated with cross-functional teams to build reliable, high-performance software for global clients.",
         "bullets": [
-          "Developed responsive front-end applications using React and modern JavaScript.",
-          "Built scalable backend services using Java, Python, and Node.js.",
-          "Designed and optimized high-volume databases through query tuning, indexing, partitioning, and caching.",
-          "Collaborated with cross-functional teams to deliver reliable software for enterprise clients."
+          "Built responsive, accessible web applications using React and modern JavaScript.",
+          "Developed scalable backend services using Java, Python, and Node.js.",
+          "Optimized large-scale databases through indexing, query tuning, partitioning, and caching strategies.",
+          "Worked closely with designers, QA engineers, and product teams to deliver reliable production software."
         ]
       },
       {
         "company": "Cybrilla Technologies",
         "title": "Developer Intern",
         "years": "July 2016 - September 2016",
-        "description": "Began my professional software development journey by transforming UI wireframes into responsive, production-ready web pages while learning modern front-end development practices.",
+        "description": "Started my professional software development journey by transforming design wireframes into responsive, production-ready web pages while learning modern frontend development practices.",
         "bullets": [
-          "Converted design wireframes into responsive, cross-browser web pages.",
-          "Learned modern front-end development practices while working on production projects."
+          "Converted UI wireframes into responsive, cross-browser web pages.",
+          "Learned modern frontend development practices while contributing to production projects."
         ]
       }
     ],
@@ -185,73 +185,255 @@
         "organization": "SCRAPS Moose Jaw",
         "role": "Volunteer - Cat Rescue & Fostering",
         "year": "August 2023 - Present",
-        "description": "Foster and care for rescue cats by providing medical support, socialization, and a safe temporary home until they're ready for adoption."
+        "description": "Provide foster care, medical support, and socialization for rescue cats while helping prepare them for successful adoption into permanent homes."
       },
       {
         "organization": "PAWS Thrissur",
         "role": "Volunteer - Cat Rescue & Fostering",
         "year": "2020 - 2023",
-        "description": "Rescued and fostered stray cats, helping provide medical care, rehabilitation, and safe temporary homes while promoting animal welfare within the community."
+        "description": "Rescued, rehabilitated, and fostered stray cats while supporting local animal welfare initiatives and adoption efforts."
       }
     ],
     "certifications": [
       {
         "name": "IELTS",
         "year": "2024",
-        "description": "Achieved an overall IELTS Band Score of 8.0, including an 8.5 in Speaking, demonstrating strong professional English communication skills."
+        "description": "Achieved an overall IELTS Band Score of 8.0, including 8.5 in Speaking, demonstrating strong professional English communication skills."
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "amruthaaj.com",
-        "category": "Personal portfolio website",
-        "image": "amruthaaj.com.jpg",
-        "technologies": "React, TypeScript",
-        "url": "https://amruthaaj.com/"
+        "title": "Brittany Niemi Rescues",
+        "category": "Cat adoption website and rescue administration",
+        "technologies": "Next.js, Cloudflare Workers, D1, R2",
+        "url": "https://bnrescues.com/",
+        "image": "/assets/img/pixelmoose/bnrescues/01.webp",
+        "images": [
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/01.webp",
+            "alt": "Brittany Niemi Rescues homepage in dark mode"
+          },
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/02.webp",
+            "alt": "Brittany Niemi Rescues homepage in light mode"
+          },
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/03.webp",
+            "alt": "Homepage on a phone in light and dark mode"
+          },
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/04.webp",
+            "alt": "Adoptable cats listing with filters"
+          },
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/05.webp",
+            "alt": "Cat profile page with photo gallery"
+          },
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/06.webp",
+            "alt": "Cat listing and profile on a phone"
+          },
+          {
+            "src": "/assets/img/pixelmoose/bnrescues/07.webp",
+            "alt": "Foster application form"
+          }
+        ],
+        "description": "A searchable home for adoptable cats, with adoption and foster applications and a private admin for the rescue.",
+        "studio": "Pixelmoose",
+        "storyUrl": "https://pixelmoose.ca/blog/building-bnrescues/",
+        "linkLabel": "Visit project"
       },
       {
-        "title": "Moose Jaw Food Bank App",
-        "category": "Client and volunteer appointment management platform",
-        "image": "mj-foodbank-app-cover.png",
-        "technologies": "React, Scheduling, PostgreSQL",
-        "url": "https://mjfoodbank.org/"
+        "title": "Moose Jaw Food Bank Website",
+        "category": "Public website and community resources",
+        "technologies": "Next.js, Mantine, AWS Lightsail",
+        "url": "https://mjfoodbank.org/",
+        "image": "/assets/img/pixelmoose/mjfoodbank-site/01.webp",
+        "images": [
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/01.webp",
+            "alt": "Moose Jaw Food Bank homepage in light mode"
+          },
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/02.webp",
+            "alt": "Moose Jaw Food Bank homepage in dark mode"
+          },
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/03.webp",
+            "alt": "Food bank homepage on a phone in light and dark mode"
+          },
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/04.webp",
+            "alt": "Get food page"
+          },
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/05.webp",
+            "alt": "Volunteer page"
+          },
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/06.webp",
+            "alt": "Get food and volunteer pages on a phone"
+          },
+          {
+            "src": "/assets/img/pixelmoose/mjfoodbank-site/07.webp",
+            "alt": "Community resources page"
+          }
+        ],
+        "description": "A multilingual website connecting visitors with food support, volunteering, donations, and local resources.",
+        "studio": "Pixelmoose",
+        "storyUrl": "https://pixelmoose.ca/blog/rebuilding-mjfoodbank-org/",
+        "linkLabel": "Visit project"
+      },
+      {
+        "title": "Moose Jaw Food Bank Booking + Admin",
+        "category": "Client booking and food bank operations",
+        "technologies": "React, Node.js, PostgreSQL, AWS Lightsail",
+        "url": "https://app.mjfoodbank.org/",
+        "image": "/assets/img/pixelmoose/foodbank-web/01.webp",
+        "images": [
+          {
+            "src": "/assets/img/pixelmoose/foodbank-web/01.webp",
+            "alt": "Moose Jaw Food Bank web app overview"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-web/02.webp",
+            "alt": "Mobile client booking view"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-web/03.webp",
+            "alt": "Visit trends dashboard"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-web/04.webp",
+            "alt": "Warehouse operations dashboard"
+          }
+        ],
+        "description": "A shared system for appointments, volunteer shifts, warehouse records, donations, staff timesheets, and reporting.",
+        "studio": "Pixelmoose",
+        "storyUrl": "https://pixelmoose.ca/blog/foodbank-booking-app/",
+        "linkLabel": "Visit project"
       },
       {
         "title": "Moose Jaw Food Bank Mobile App",
-        "category": "Mobile appointment booking experience for food bank clients",
-        "image": "mj-foodbank-android-cover.png",
-        "technologies": "Android, Mobile UI, Scheduling",
-        "url": "https://mjfoodbank.org/"
+        "category": "Android and iOS applications",
+        "technologies": "React, Capacitor, Android, iOS",
+        "url": "https://play.google.com/store/apps/details?id=org.mjfoodbank.app.twa",
+        "image": "/assets/img/pixelmoose/foodbank-android/01.webp",
+        "images": [
+          {
+            "src": "/assets/img/pixelmoose/foodbank-android/01.webp",
+            "alt": "Moose Jaw Food Bank mobile app overview"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-android/02.webp",
+            "alt": "Android app home screen"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-android/03.webp",
+            "alt": "Android booking calendar"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-android/04.webp",
+            "alt": "Android visit details screen"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-android/05.webp",
+            "alt": "Android appointment workflow screen"
+          }
+        ],
+        "description": "Booking and visit history on Android and iOS, built from the same application with biometric sign-in.",
+        "studio": "Pixelmoose",
+        "storyUrl": "https://pixelmoose.ca/blog/foodbank-mobile-apps/",
+        "linkLabel": "Google Play"
       },
       {
-        "title": "Food Bank Phone Booking IVR",
-        "category": "Phone-based appointment booking system",
-        "image": "ivr-cover.png",
-        "technologies": "IVR, Automation, Scheduling",
-        "url": "https://mjfoodbank.org/"
+        "title": "Food Bank Phone + Text Booking",
+        "category": "Accessible appointment scheduling",
+        "technologies": "Twilio Studio, IVR, SMS, API Integration",
+        "url": "https://pixelmoose.ca/blog/foodbank-phone-text-booking/",
+        "image": "/assets/img/pixelmoose/foodbank-ivr/01.webp",
+        "images": [
+          {
+            "src": "/assets/img/pixelmoose/foodbank-ivr/01.webp",
+            "alt": "Phone and text booking system overview"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-ivr/02.webp",
+            "alt": "IVR call flow"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-ivr/03.webp",
+            "alt": "SMS booking confirmation"
+          },
+          {
+            "src": "/assets/img/pixelmoose/foodbank-ivr/04.webp",
+            "alt": "IVR admin tools"
+          }
+        ],
+        "description": "Voice and text appointment booking connected to the same live schedule and eligibility rules as the web app.",
+        "studio": "Pixelmoose",
+        "storyUrl": "https://pixelmoose.ca/blog/foodbank-phone-text-booking/",
+        "linkLabel": "Read the story"
+      },
+      {
+        "title": "amruthaaj.com",
+        "category": "Personal portfolio website",
+        "image": "amruthaaj.com.jpg",
+        "technologies": "Next.js, React, TypeScript",
+        "url": "https://amruthaaj.com/"
       },
       {
         "title": "Laxmanfitness.in",
-        "category": "Business website for my father's fitness equipment company",
+        "category": "Business website for a fitness equipment manufacturer",
         "image": "laxmanfitness.jpg",
         "technologies": "Google AMP, HTML, CSS",
         "url": "https://laxmanfitness.in/"
+      }
+    ]
+  },
+  "blog": {
+    "posts": [
+      {
+        "title": "Building a home online for Brittany Niemi Rescues",
+        "url": "https://pixelmoose.ca/blog/building-bnrescues/",
+        "date": "2026-10-27",
+        "readingTime": "7 min read",
+        "excerpt": "Building a cat adoption site and rescue admin with Next.js, while keeping monthly hosting costs at zero.",
+        "image": "/assets/img/pixelmoose/bnrescues/01.webp"
       },
       {
-        "title": "The Verge Landing Page Clone",
-        "category": "Pixel-perfect recreation of The Verge homepage",
-        "image": "verge.jpg",
-        "technologies": "HTML, CSS, JavaScript",
-        "url": "https://amruthaaj.com/TheVerge.com/"
+        "title": "Moving the Moose Jaw Food Bank off WordPress",
+        "url": "https://pixelmoose.ca/blog/rebuilding-mjfoodbank-org/",
+        "date": "2026-10-24",
+        "readingTime": "7 min read",
+        "excerpt": "Replacing WordPress with a custom website that connects directly to the food bank’s booking system.",
+        "image": "/assets/img/pixelmoose/mjfoodbank-site/01.webp"
       },
       {
-        "title": "Hangman",
-        "category": "Interactive word guessing game",
-        "image": "hangman.jpg",
-        "technologies": "React, HTML",
-        "url": "https://amruthaaj.com/hangman/"
+        "title": "Putting the food bank in people’s pockets",
+        "url": "https://pixelmoose.ca/blog/foodbank-mobile-apps/",
+        "date": "2026-03-24",
+        "readingTime": "8 min read",
+        "excerpt": "Taking the food bank’s web app to Android and iOS with Capacitor, including the challenges of publishing to both stores.",
+        "image": "/assets/img/pixelmoose/foodbank-android/01.webp"
+      },
+      {
+        "title": "Booking a food bank visit by phone or text",
+        "url": "https://pixelmoose.ca/blog/foodbank-phone-text-booking/",
+        "date": "2026-01-21",
+        "readingTime": "7 min read",
+        "excerpt": "Making appointments accessible without internet through Twilio voice and SMS flows connected to live booking rules.",
+        "image": "/assets/img/pixelmoose/foodbank-ivr/01.webp"
+      },
+      {
+        "title": "From phone tag to a booking app",
+        "url": "https://pixelmoose.ca/blog/foodbank-booking-app/",
+        "date": "2025-09-16",
+        "readingTime": "10 min read",
+        "excerpt": "How a reporting spreadsheet grew into a system for bookings, volunteers, warehouse operations, and staff administration.",
+        "image": "/assets/img/pixelmoose/foodbank-web/01.webp"
       }
     ]
   }
